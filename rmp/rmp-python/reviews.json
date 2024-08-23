@@ -1,0 +1,124 @@
+{
+    "reviews": [
+      {
+        "professor": "Dr. Emily Hawthorne",
+        "subject": "Physics",
+        "stars": 5,
+        "review": "Dr. Hawthorne's passion for physics is contagious! Her lectures are engaging and she explains complex concepts with great clarity."
+      },
+      {
+        "professor": "Prof. Michael Chen",
+        "subject": "Computer Science",
+        "stars": 4,
+        "review": "Prof. Chen is knowledgeable and approachable. His programming assignments are challenging but really help solidify the concepts."
+      },
+      {
+        "professor": "Dr. Sarah Johnson",
+        "subject": "Biology",
+        "stars": 3,
+        "review": "Dr. Johnson knows her stuff, but her lectures can be a bit dry. More interactive elements would greatly improve the class."
+      },
+      {
+        "professor": "Prof. Robert Williams",
+        "subject": "History",
+        "stars": 5,
+        "review": "Prof. Williams brings history to life! His storytelling approach makes even the most obscure historical events fascinating."
+      },
+      {
+        "professor": "Dr. Lisa Martinez",
+        "subject": "Psychology",
+        "stars": 4,
+        "review": "Dr. Martinez creates a supportive learning environment. Her real-world examples make psychological theories more relatable."
+      },
+      {
+        "professor": "Prof. David Lee",
+        "subject": "Mathematics",
+        "stars": 2,
+        "review": "Prof. Lee rushes through material too quickly. It's hard to keep up, and he doesn't seem open to questions."
+      },
+      {
+        "professor": "Dr. Rachel Green",
+        "subject": "Environmental Science",
+        "stars": 5,
+        "review": "Dr. Green's passion for the environment is inspiring. Her field trips and hands-on experiments make learning unforgettable."
+      },
+      {
+        "professor": "Prof. James Wilson",
+        "subject": "Literature",
+        "stars": 4,
+        "review": "Prof. Wilson's analysis of classic literature is insightful. He encourages critical thinking and lively class discussions."
+      },
+      {
+        "professor": "Dr. Anna Petrova",
+        "subject": "Chemistry",
+        "stars": 3,
+        "review": "Dr. Petrova is clearly brilliant, but sometimes struggles to explain concepts at an undergraduate level. Office hours are helpful though."
+      },
+      {
+        "professor": "Prof. Thomas Brown",
+        "subject": "Economics",
+        "stars": 5,
+        "review": "Prof. Brown makes economics relevant to everyday life. His classes are always full because of his engaging teaching style."
+      },
+      {
+        "professor": "Dr. Maria Garcia",
+        "subject": "Sociology",
+        "stars": 4,
+        "review": "Dr. Garcia challenges students to think critically about social issues. Her assignments are thought-provoking and well-designed."
+      },
+      {
+        "professor": "Prof. John Smith",
+        "subject": "Political Science",
+        "stars": 2,
+        "review": "Prof. Smith seems more interested in pushing his own political views than teaching objective political theory."
+      },
+      {
+        "professor": "Dr. Laura Taylor",
+        "subject": "Art History",
+        "stars": 5,
+        "review": "Dr. Taylor's lectures are like guided tours through art museums. Her enthusiasm for art is infectious."
+      },
+      {
+        "professor": "Prof. Samuel Kim",
+        "subject": "Engineering",
+        "stars": 4,
+        "review": "Prof. Kim sets high standards but provides excellent support. His industry experience adds valuable context to the coursework."
+      },
+      {
+        "professor": "Dr. Elizabeth White",
+        "subject": "Linguistics",
+        "stars": 3,
+        "review": "Dr. White is knowledgeable, but her assignments can be unclear. More structured guidelines would be helpful."
+      },
+      {
+        "professor": "Prof. Ahmed Hassan",
+        "subject": "Philosophy",
+        "stars": 5,
+        "review": "Prof. Hassan's socratic method of teaching really gets students thinking. Every class is an intellectual adventure."
+      },
+      {
+        "professor": "Dr. Jessica Lee",
+        "subject": "Neuroscience",
+        "stars": 4,
+        "review": "Dr. Lee breaks down complex neurological concepts well. Her use of case studies helps connect theory to practice."
+      },
+      {
+        "professor": "Prof. Richard Davis",
+        "subject": "Business",
+        "stars": 2,
+        "review": "Prof. Davis often cancels classes last minute and seems disorganized. The course content is good when he does teach."
+      },
+      {
+        "professor": "Dr. Michelle Rodriguez",
+        "subject": "Anthropology",
+        "stars": 5,
+        "review": "Dr. Rodriguez brings anthropology to life with her fieldwork stories. Her classes are always the highlight of my day."
+      },
+      {
+        "professor": "Prof. Daniel Wright",
+        "subject": "Music Theory",
+        "stars": 4,
+        "review": "Prof. Wright has a gift for explaining complex musical concepts. His ear training exercises have greatly improved my skills."
+      }
+    ]
+  }

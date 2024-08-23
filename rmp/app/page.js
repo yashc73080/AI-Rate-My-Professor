@@ -10,7 +10,9 @@ export default function Home() {
       content: `Hi! I'm the Rate My Professor support assistant. How can I help you today?`,
     },
   ])
+  
   const [message, setMessage] = useState('')
+
   const sendMessage = async () => {
     setMessage('')
     setMessages((messages) => [
@@ -47,6 +49,7 @@ export default function Home() {
       })
     })
   }
+
   return (
     <Box
       width="100vw"

@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-load_dotenv()
+load_dotenv(dotenv_path='../.env.local')
 from pinecone import Pinecone, ServerlessSpec
 from openai import OpenAI
 import os
@@ -9,12 +9,14 @@ import json
 pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
 
 # Create a Pinecone index
-pc.create_index(
-    name="rag",
-    dimension=1536,
-    metric="cosine",
-    spec=ServerlessSpec(cloud="aws", region="us-east-1"),
-)
+pc_index_names = [index.name for index in pc.list_indexes()]
+if "ai-rate-my-professor" not in pc_index_names:
+    pc.create_index(
+        name="ai-rate-my-professor",
+        dimension=1536,
+        metric="cosine",
+        spec=ServerlessSpec(cloud="aws", region="us-east-1"),
+    )
 
 # Load the review data
 data = json.load(open("reviews.json"))
@@ -41,7 +43,7 @@ for review in data["reviews"]:
     )
 
 # Insert the embeddings into the Pinecone index
-index = pc.Index("rag")
+index = pc.Index("ai-rate-my-professor")
 upsert_response = index.upsert(
     vectors=processed_data,
     namespace="ns1",
