@@ -25,7 +25,7 @@ export async function POST(req) {
     })
 
     const results = await index.query({
-        topK: 5,
+        topK: 5, // How many results we want
         includeMetadata: true,
         vector: embedding.data[0].embedding,
     })
@@ -47,9 +47,9 @@ export async function POST(req) {
 
     const completion = await openai.chat.completions.create({
         messages: [
-        {role: 'system', content: systemPrompt},
-        ...lastDataWithoutLastMessage,
-        {role: 'user', content: lastMessageContent},
+            {role: 'system', content: systemPrompt},
+            ...lastDataWithoutLastMessage,
+            {role: 'user', content: lastMessageContent},
         ],
         model: 'gpt-4o-mini',
         stream: true,
@@ -62,7 +62,8 @@ export async function POST(req) {
                 for await (const chunk of completion) {
                     const content = chunk.choices[0]?.delta?.content
                     if (content) {
-                        const text = encoder.encode(content)
+                        const boldedContent = content.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                        const text = encoder.encode(boldedContent)
                         controller.enqueue(text)
                     }
                 }  

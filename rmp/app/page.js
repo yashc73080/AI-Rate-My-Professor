@@ -1,8 +1,11 @@
 'use client'
 import { Box, Button, Stack, TextField } from '@mui/material'
 import { useState } from 'react'
+import { scrapeData } from './scraping'
 
 export default function Home() {
+
+  const [url, setUrl] = useState('')
 
   const [messages, setMessages] = useState([
     {
@@ -10,45 +13,73 @@ export default function Home() {
       content: `Hi! I'm the Rate My Professor support assistant. How can I help you today?`,
     },
   ])
-  
+
   const [message, setMessage] = useState('')
 
   const sendMessage = async () => {
-    setMessage('')
+    if (message.trim() === "") return;
+
     setMessages((messages) => [
       ...messages,
       {role: 'user', content: message},
       {role: 'assistant', content: ''},
     ])
-  
+    
+    setMessage('')
+
     const response = fetch('/api/chat', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify([...messages, {role: 'user', content: message}]),
-    }).then(async (res) => {
-      const reader = res.body.getReader()
-      const decoder = new TextDecoder()
-      let result = ''
-  
-      return reader.read().then(function processText({done, value}) {
-        if (done) {
-          return result
-        }
-        const text = decoder.decode(value || new Uint8Array(), {stream: true})
-        setMessages((messages) => {
-          let lastMessage = messages[messages.length - 1]
-          let otherMessages = messages.slice(0, messages.length - 1)
-          return [
-            ...otherMessages,
-            {...lastMessage, content: lastMessage.content + text},
-          ]
-        })
-        return reader.read().then(processText)
-      })
     })
+
+    const reader = res.body?.getReader()
+    const decoder = new TextDecoder()
+
+    if (reader) {
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        const text = decoder.decode(value, { stream: true });
+        setMessages((messages) => {
+          const lastMessage = messages[messages.length - 1];
+          const updatedMessages = messages.slice(0, -1);
+          return [
+            ...updatedMessages,
+            { ...lastMessage, content: lastMessage.content + text }
+          ];
+        });
+      }
+    }
   }
+
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      sendMessage();
+    }
+  };
+
+  const handleScrape = async (e) => {
+    e.preventDefault();
+    try {
+      const result = await scrapeData(url);
+      if (result.success) {
+        setUrl('');
+        setMessages((messages) => [
+          ...messages,
+          { role: "user", content: message },
+          { role: "assistant", content: result.message }
+        ]);
+        sendMessage();
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      alert('Failed to scrape and store data');
+    }
+  };
 
   return (
     <Box
@@ -103,6 +134,7 @@ export default function Home() {
             fullWidth
             value={message}
             onChange={(e) => setMessage(e.target.value)}
+            onKeyPress={handleKeyPress}
           />
           <Button variant="contained" onClick={sendMessage}>
             Send
