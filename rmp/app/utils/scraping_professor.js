@@ -1,8 +1,10 @@
+// Scrapes one professor page from RateMyProfessors and stores the information in Pinecone
+
 'use client';
 
 export async function scrapeData(url) {
   try {
-    const response = await fetch('/api/scrape_professor', {
+    const response = await fetch('../api/scrape_professor', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

@@ -1,7 +1,7 @@
 'use client'
 import { Box, Button, Stack, TextField } from '@mui/material'
 import { useState } from 'react'
-import { scrapeData } from './scraping_professor'
+import { scrapeData } from './utils/scraping_professor'
 
 export default function Home() {
   const [url, setUrl] = useState('')
