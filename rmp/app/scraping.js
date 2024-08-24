@@ -2,7 +2,7 @@
 
 export async function scrapeData(url) {
   try {
-    const response = await fetch('/api/scrape', {
+    const response = await fetch('/api/scrape_professor', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
