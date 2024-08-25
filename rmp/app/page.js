@@ -23,7 +23,7 @@ export default function Home() {
     }
   }
 
-  const sendMessage = async () => {
+  const sendMessage = async () => { // TODO Need better formatting of text (with new lines)
     if (message.trim() === "") return;
   
     if (isValidUrl(message)) {
