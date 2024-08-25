@@ -62,6 +62,8 @@ export default function Home() {
     }
   };
 
+  // TODO handle auto scrolling down
+
   const handleNormalMessage = async () => {
     setMessages((prevMessages) => [
       ...prevMessages,
@@ -97,7 +99,7 @@ export default function Home() {
     }
   }
 
-  const handleBulkScrape = async (urlToScrape) => {
+  const handleBulkScrape = async (urlToScrape) => { // TODO cut off after 40 seconds, make loading wheel
     try {
       const response = await fetch('/api/bulk_scrape_professors', {
         method: 'POST',
