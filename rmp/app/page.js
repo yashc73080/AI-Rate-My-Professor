@@ -1,5 +1,6 @@
 'use client'
-import { Box, Button, Stack, TextField } from '@mui/material'
+import { Box, Button, Stack, TextField, IconButton } from '@mui/material'
+import { Send } from '@mui/icons-material'
 import { useState } from 'react'
 import { scrapeData } from './utils/scraping_professor'
 
@@ -139,7 +140,7 @@ export default function Home() {
       justifyContent="center"
       alignItems="center"
       p={4}
-      bgcolor="gray"
+      bgcolor="#252424"
     >
       <Box
         width="90vw"
@@ -150,7 +151,7 @@ export default function Home() {
         borderRadius={4}
         boxShadow={3}
         overflow="hidden"
-        bgcolor="background.paper"
+        bgcolor="#3f3d3d"
       >
         <Box
           flex={1}
@@ -168,7 +169,7 @@ export default function Home() {
               }
               maxWidth="75%"
               bgcolor={
-                message.role === 'assistant' ? 'primary.main' : 'secondary.main'
+                message.role === 'assistant' ? '#1669bb' : '#666363'
               }
               color="white"
               borderRadius={2}
@@ -183,7 +184,7 @@ export default function Home() {
         <Box
           display="flex"
           p={2}
-          bgcolor="grey.200"
+          bgcolor="#3f3d3d "
           boxShadow={1}
           alignItems="center"
         >
@@ -194,11 +195,33 @@ export default function Home() {
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             onKeyPress={handleKeyPress}
-            sx={{ mr: 2 }}
+            sx={{
+              mr: 2,
+              '& .MuiOutlinedInput-root': {
+                '& fieldset': {
+                  borderColor: 'white',
+                },
+                '&:hover fieldset': {
+                  borderColor: 'white',
+                },
+                '&.Mui-focused fieldset': {
+                  borderColor: 'white',
+                },
+                '& input': {
+                  color: 'white',
+                },
+              },
+              '& .MuiInputLabel-root': {
+                color: 'white',
+              },
+              '& .MuiInputLabel-root.Mui-focused': {
+                color: 'white',
+              },
+            }}
           />
-          <Button variant="contained" color="primary" onClick={sendMessage}>
-            Send
-          </Button>
+          <IconButton color="primary" onClick={sendMessage}>
+            <Send  />
+          </IconButton>
         </Box>
       </Box>
     </Box>
