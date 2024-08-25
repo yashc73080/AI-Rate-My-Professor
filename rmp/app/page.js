@@ -138,58 +138,69 @@ export default function Home() {
       flexDirection="column"
       justifyContent="center"
       alignItems="center"
+      p={4}
+      bgcolor="gray"
     >
-      <Stack
-        direction={'column'}
-        width="500px"
-        height="700px"
-        border="1px solid black"
-        p={2}
-        spacing={3}
+      <Box
+        width="90vw"
+        height="90vh"
+        maxWidth="1200px"
+        display="flex"
+        flexDirection="column"
+        borderRadius={4}
+        boxShadow={3}
+        overflow="hidden"
+        bgcolor="background.paper"
       >
-        <Stack
-          direction={'column'}
-          spacing={2}
-          flexGrow={1}
+        <Box
+          flex={1}
           overflow="auto"
-          maxHeight="100%"
+          p={3}
+          display="flex"
+          flexDirection="column"
+          gap={2}
         >
           {messages.map((message, index) => (
             <Box
               key={index}
-              display="flex"
-              justifyContent={
+              alignSelf={
                 message.role === 'assistant' ? 'flex-start' : 'flex-end'
               }
+              maxWidth="75%"
+              bgcolor={
+                message.role === 'assistant' ? 'primary.main' : 'secondary.main'
+              }
+              color="white"
+              borderRadius={2}
+              p={2}
+              boxShadow={2}
             >
-              <Box
-                bgcolor={
-                  message.role === 'assistant'
-                    ? 'primary.main'
-                    : 'secondary.main'
-                }
-                color="white"
-                borderRadius={16}
-                p={3}
-              >
-                {message.content}
-              </Box>
+              {message.content}
             </Box>
           ))}
-        </Stack>
-        <Stack direction={'row'} spacing={2}>
+        </Box>
+  
+        <Box
+          display="flex"
+          p={2}
+          bgcolor="grey.200"
+          boxShadow={1}
+          alignItems="center"
+        >
           <TextField
-            label="Send a Rate My Professors link or ask a question..."
+            variant="outlined"
             fullWidth
+            label="Send a Rate My Professor URL or message"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             onKeyPress={handleKeyPress}
+            sx={{ mr: 2 }}
           />
-          <Button variant="contained" onClick={sendMessage}>
+          <Button variant="contained" color="primary" onClick={sendMessage}>
             Send
           </Button>
-        </Stack>
-      </Stack>
+        </Box>
+      </Box>
     </Box>
-  )
+  );
 }
