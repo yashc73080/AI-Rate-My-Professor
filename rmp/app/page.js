@@ -1,7 +1,7 @@
 'use client'
-import { Box, Button, TextField, IconButton, Select, MenuItem, FormControl, InputLabel } from '@mui/material';
+import { Box, Button, TextField, IconButton, Select, MenuItem, FormControl, InputLabel, CircularProgress } from '@mui/material';
 import { Send } from '@mui/icons-material'
-import { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect, useRef } from 'react';
 import { scrapeData } from './utils/scraping_professor'
 
 export default function Home() {
@@ -13,28 +13,23 @@ export default function Home() {
     },
   ])
   const [message, setMessage] = useState('')
+  const [isScrapingLoading, setIsScrapingLoading] = useState(false);
 
-  const [selectedCollege, setSelectedCollege] = useState('');
-
-  const colleges = [
+  const [selectedSchool, setSelectedSchool] = useState('');
+  const schools = [
     { value: '', label: 'General (No specific school)' },
     { value: 'Rutgers', label: 'Rutgers University-New Brunswick' },
     // Add more colleges here in the future
   ];
 
-  const isValidUrl = (string) => {
-    try {
-      new URL(string);
-      return true;
-    } catch (_) {
-      return false;
-    }
-  }
+  const isRmpLink = (url) => {
+    return url.includes('ratemyprofessors.com');
+  };
 
   const sendMessage = async () => {
     if (message.trim() === "") return;
 
-    if (isValidUrl(message)) {
+    if (isRmpLink(message)) {
       await handleScrape(message);
     } else {
       await handleNormalMessage();
@@ -44,6 +39,7 @@ export default function Home() {
   }
 
   const handleScrape = async (urlToScrape) => {
+    setIsScrapingLoading(true);
     try {
       const result = await scrapeData(urlToScrape);
       if (result.success) {
@@ -60,10 +56,12 @@ export default function Home() {
         { role: "user", content: urlToScrape },
         { role: "assistant", content: "Failed to scrape and store data. Please try again." }
       ]);
+    } finally {
+      setIsScrapingLoading(false);
+      setUrl(''); // Clear the URL input after scraping
     }
-
-    setMessage('');
   };
+
 
   const handleNormalMessage = async () => {
     setMessages((prevMessages) => [
@@ -77,7 +75,11 @@ export default function Home() {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify([...messages, {role: 'user', content: message}]),
+      body: JSON.stringify({
+        messages: [...messages, {role: 'user', content: message}],
+        selectedSchool: selectedSchool,
+        // isRmpLink: isRmpLink(message)
+      }),
     })
 
     const reader = response.body?.getReader()
@@ -99,6 +101,7 @@ export default function Home() {
       }
     }
   }
+
 
   const handleKeyPress = (e) => {
     if (e.key === 'Enter' && !e.shiftKey) {
@@ -244,8 +247,8 @@ export default function Home() {
             </InputLabel>
               <Select
                 labelId="school-select-label"
-                value={selectedCollege}
-                onChange={(e) => setSelectedCollege(e.target.value)}
+                value={selectedSchool}
+                onChange={(e) => setSelectedSchool(e.target.value)}
                 label="Select a School"
                 sx={{
                   color: 'white',
@@ -279,9 +282,9 @@ export default function Home() {
                   },
                 }}
               >
-                {colleges.map((college) => (
-                  <MenuItem key={college.value} value={college.value}>
-                    {college.label}
+                {schools.map((school) => (
+                  <MenuItem key={school.value} value={school.value}>
+                    {school.label}
                   </MenuItem>
                 ))}
                 <MenuItem disabled sx={{ color: 'white', opacity: 0.7 }}>
@@ -331,8 +334,13 @@ export default function Home() {
                 },
               }}
             />
-            <Button variant="contained" color="primary" onClick={() => handleScrape(url)}>
-              Scrape
+            <Button 
+              variant="contained" 
+              color="primary" 
+              onClick={() => handleScrape(url)}
+              disabled={isScrapingLoading}
+            >
+              {isScrapingLoading ? <CircularProgress size={24} color="inherit" /> : 'Scrape'}
             </Button>
           </Box>
         </Box>
