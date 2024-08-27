@@ -110,6 +110,13 @@ export default function Home() {
     }
   };
 
+  const handleUrlKeyPress = (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      handleScrape(url);
+    }
+  };
+
   const messagesEndRef = useRef(null)
 
   const scrollToBottom = () => {
@@ -310,6 +317,7 @@ export default function Home() {
               label="Enter a Rate My Professor URL"
               value={url}
               onChange={(e) => setUrl(e.target.value)}
+              onKeyPress={handleUrlKeyPress}
               sx={{
                 mr: 2,
                 '& .MuiOutlinedInput-root': {
