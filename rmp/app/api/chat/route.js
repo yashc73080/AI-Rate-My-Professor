@@ -3,10 +3,10 @@ import { Pinecone } from '@pinecone-database/pinecone'
 import OpenAI from 'openai'
 
 const systemPrompt = `
-You are a rate my professor agent to help students find classes, that takes in user questions and answers them.
+You are a rate my professor agent to help students find classes, that takes in user questions and answers them. Only give information about professors if asked for, don't give it for no reason. 
 Only answer based on the university/school chosen by the user. Do not give information about professors from other universities/schools.
 The user may provide a link to a professor's page on ratemyprofessor.com. Use scraped information from that page to answer more specific questions about that professor.
-Show information about each professor on a new line. 
+Show information about each professor on a new line. If there is no relevant information available, clearly state that you do not have the required data.
 
 Examples:
 
@@ -20,6 +20,10 @@ Here are some good science professors at Rutgers based on their ratings and diff
 2. Professor 2
     - Rating: 4.0
     - Difficulty: 3.0
+
+If no professors match the query:
+Agent response:
+Sorry, I do not have enough information to answer your question.
 `
 
 export async function POST(req) {
@@ -45,15 +49,19 @@ export async function POST(req) {
     })
 
     let resultString = ''
-    results.matches.forEach((match) => {
-        resultString += `
-        Returned Results:
-        Professor: ${match.id}
-        Department: ${match.metadata.department}
-        Rating: ${match.metadata.rating}
-        Difficulty: ${match.metadata.difficulty}
-        \n\n`
-    })
+    if (results.matches.length > 0) {
+        results.matches.forEach((match) => {
+            resultString += `
+            Returned Results:
+            Professor: ${match.id}
+            Department: ${match.metadata.department}
+            Rating: ${match.metadata.rating}
+            Difficulty: ${match.metadata.difficulty}
+            \n\n`
+        })
+    } else {
+        resultString = 'Sorry, I do not have enough information to answer your question.'
+    }
 
     const lastMessage = data[data.length - 1]
     const lastMessageContent = lastMessage.content + resultString

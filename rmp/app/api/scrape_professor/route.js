@@ -14,6 +14,7 @@ export async function POST(req) {
     const profName = $('div.NameTitle__Name-dowf0z-0.cfjPUG').text().trim();
     const profSubject = $('a.TeacherDepartment__StyledDepartmentLink-fl79e8-0').text().trim();
     const profRating = $('div.RatingValue__Numerator-qw8sqy-2').text().trim();
+    // TODO add info about reviews, summarize?
 
     const openai = new OpenAI();
     const text = `${profName} is a professor in the ${profSubject} department with an overall quality rating of ${profRating}.`;
@@ -36,7 +37,7 @@ export async function POST(req) {
 
     return NextResponse.json({
       success: true,
-      message: `Found info about ${profName} in the ${profSubject} department with an overall quality rating of ${profRating}`,
+      message: `Found information about ${profName} in the ${profSubject} department with an overall quality rating of ${profRating}`,
     });
   } catch (error) {
     console.error(error);
