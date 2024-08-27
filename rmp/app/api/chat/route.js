@@ -12,14 +12,7 @@ Examples:
 
 User query: Who are the best professors in the Computer Science department?
 Agent response:
-Here are some good science professors at ${selectedSchool} based on their ratings and difficulty:
-1. Professor 1 
-   - Rating: 4.5
-   - Difficulty: 3.5
-
-2. Professor 2
-    - Rating: 4.0
-    - Difficulty: 3.0
+Here are some good science professors at ${selectedSchool} based on their ratings and difficulty: \n 1. Professor 1 \n   - Rating: 4.5 \n   - Difficulty: 3.5 \n\n 2. Professor 2 \n    - Rating: 4.0 \n    - Difficulty: 3.0
 
 If no professors match the query:
 Agent response:
