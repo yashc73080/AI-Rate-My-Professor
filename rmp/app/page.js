@@ -62,7 +62,6 @@ export default function Home() {
     }
   };
 
-
   const handleNormalMessage = async () => {
     setMessages((prevMessages) => [
       ...prevMessages,
@@ -78,7 +77,6 @@ export default function Home() {
       body: JSON.stringify({
         messages: [...messages, {role: 'user', content: message}],
         selectedSchool: selectedSchool,
-        // isRmpLink: isRmpLink(message)
       }),
     })
 
@@ -86,22 +84,23 @@ export default function Home() {
     const decoder = new TextDecoder()
 
     if (reader) {
+      let accumulatedContent = '';
       while (true) {
         const { done, value } = await reader.read();
         if (done) break;
         const text = decoder.decode(value, { stream: true });
+        accumulatedContent += text;
         setMessages((prevMessages) => {
           const lastMessage = prevMessages[prevMessages.length - 1];
           const updatedMessages = prevMessages.slice(0, -1);
           return [
             ...updatedMessages,
-            { ...lastMessage, content: lastMessage.content + text }
+            { ...lastMessage, content: accumulatedContent }
           ];
         });
       }
     }
   }
-
 
   const handleKeyPress = (e) => {
     if (e.key === 'Enter' && !e.shiftKey) {
@@ -177,6 +176,7 @@ export default function Home() {
                 borderRadius={2}
                 p={2}
                 boxShadow={2}
+                sx={{ whiteSpace: 'pre-wrap', wordBreak: 'break-word' }}
               >
                 {message.content}
               </Box>

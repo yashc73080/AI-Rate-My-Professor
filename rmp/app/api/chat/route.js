@@ -8,11 +8,29 @@ Only answer based on ${selectedSchool}. Do not give information about professors
 The user may provide a link to a professor's page on ratemyprofessor.com. Use scraped information from that page to answer more specific questions about that professor.
 Show information about each professor on a new line. If there is no relevant information available, clearly state that you do not have the required data.
 
+When listing professors, use the following format:
+1. Professor Name
+   - Department: [Department]
+   - Rating: [Rating]
+   - Difficulty: [Difficulty]
+
+Ensure to use proper line breaks in your response.
+
 Examples:
 
 User query: Who are the best professors in the Computer Science department?
 Agent response:
-Here are some good science professors at ${selectedSchool} based on their ratings and difficulty: \n 1. Professor 1 \n   - Rating: 4.5 \n   - Difficulty: 3.5 \n\n 2. Professor 2 \n    - Rating: 4.0 \n    - Difficulty: 3.0
+Here are some good computer science professors at ${selectedSchool} based on their ratings and difficulty:
+
+1. Professor 1
+   - Department: Computer Science
+   - Rating: 4.5
+   - Difficulty: 3.5
+
+2. Professor 2
+   - Department: Computer Science
+   - Rating: 4.0
+   - Difficulty: 3.0
 
 If no professors match the query:
 Agent response:
@@ -37,37 +55,40 @@ export async function POST(req) {
     })
 
     const results = await index.query({
-        topK: 3, // How many results we want
+        topK: 3,
         includeMetadata: true,
         vector: embedding.data[0].embedding,
-        // filter: { school: selectedSchool } // Add this line to filter by school
+        // filter: { school: selectedSchool }
     })
 
-    let resultString = ''
+    let queryString = ''
     if (results.matches.length > 0) {
-        results.matches.forEach((match) => {
-            resultString += `
-            Returned Results:
-            Professor: ${match.id}
-            Department: ${match.metadata.department}
-            Rating: ${match.metadata.rating}
-            Difficulty: ${match.metadata.difficulty}
-            \n\n`
+        queryString = 'Returned Results:\n\n'
+        results.matches.forEach((match, index) => {
+            queryString += `${index + 1}. ${match.id}
+   - Department: ${match.metadata.department}
+   - Rating: ${match.metadata.rating}
+   - Difficulty: ${match.metadata.difficulty}
+\n\n`
         })
     } else {
-        resultString = `Sorry, I do not have enough information to answer your question about professors at ${selectedSchool}.`
+        queryString = `Sorry, I do not have enough information to answer your question about professors at ${selectedSchool}.`
     }
 
-    const lastMessage = messages[messages.length - 1]
-    const lastMessageContent = lastMessage.content + resultString
-    const lastDataWithoutLastMessage = messages.slice(0, messages.length - 1)
+    const completionMessages = [
+        { role: 'system', content: getSystemPrompt(selectedSchool) },
+        ...messages,
+    ]
+
+    if (queryString) {
+        completionMessages.push({
+            role: 'system',
+            content: `The following information was retrieved from the database:\n\n${queryString}`,
+        })
+    }
 
     const completion = await openai.chat.completions.create({
-        messages: [
-            {role: 'system', content: getSystemPrompt(selectedSchool)},
-            ...lastDataWithoutLastMessage,
-            {role: 'user', content: lastMessageContent},
-        ],
+        messages: completionMessages,
         model: 'gpt-4o-mini',
         stream: true,
     })
@@ -77,9 +98,8 @@ export async function POST(req) {
             const encoder = new TextEncoder()
             try {
                 for await (const chunk of completion) {
-                    let content = chunk.choices[0]?.delta?.content
+                    const content = chunk.choices[0]?.delta?.content
                     if (content) {
-                        content = content.replace(/\*\*(.*?)\*\*/g, '$1')
                         const text = encoder.encode(content)
                         controller.enqueue(text)
                     }

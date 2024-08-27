@@ -79,7 +79,7 @@ export async function POST(req) {
 
     return NextResponse.json({
       success: true,
-      message: `**Professor:** ${profName}\n**Department:** ${profSubject}\n**Rating:** ${profRating}\n**Review Summary:** ${reviewSummary}`,
+      message: `Professor: ${profName}\nDepartment: ${profSubject}\nRating: ${profRating}\nReview Summary: ${reviewSummary}`,
     });
   } catch (error) {
     console.error('Error:', error);
