@@ -9,3 +9,5 @@ const pc = new Pinecone({ apiKey: process.env.PINECONE_API_KEY })
 const index = pc.index("ai-rate-my-professor")
 
 await index.namespace('ns1').deleteAll();
+
+console.log('Cleared Pinecone database');

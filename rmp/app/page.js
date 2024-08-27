@@ -1,7 +1,7 @@
 'use client'
-import { Box, Button, Stack, TextField, IconButton } from '@mui/material'
+import { Box, Button, TextField, IconButton, Select, MenuItem, FormControl, InputLabel, CircularProgress } from '@mui/material';
 import { Send } from '@mui/icons-material'
-import { useState } from 'react'
+import React, { useState, useEffect, useRef } from 'react';
 import { scrapeData } from './utils/scraping_professor'
 
 export default function Home() {
@@ -13,36 +13,33 @@ export default function Home() {
     },
   ])
   const [message, setMessage] = useState('')
+  const [isScrapingLoading, setIsScrapingLoading] = useState(false);
 
-  const isValidUrl = (string) => {
-    try {
-      new URL(string);
-      return true;
-    } catch (_) {
-      return false;
-    }
-  }
+  const [selectedSchool, setSelectedSchool] = useState('');
+  const schools = [
+    { value: '', label: 'General (No specific school)' },
+    { value: 'Rutgers', label: 'Rutgers University-New Brunswick' },
+    // Add more colleges here in the future
+  ];
 
-  const sendMessage = async () => { // TODO Need better formatting of text (with new lines)
+  const isRmpLink = (url) => {
+    return url.includes('ratemyprofessors.com');
+  };
+
+  const sendMessage = async () => {
     if (message.trim() === "") return;
-  
-    if (isValidUrl(message)) {
-      const url = new URL(message);
-      if (url.hostname === "www.ratemyprofessors.com") {
-        if (url.pathname.startsWith("/professor/")) {
-          await handleScrape(message);
-        } else if (url.pathname.startsWith("/search/professors/")) {
-          await handleBulkScrape(message);
-        }
-      }
+
+    if (isRmpLink(message)) {
+      await handleScrape(message);
     } else {
       await handleNormalMessage();
     }
-  
+
     setMessage('');
   }
 
   const handleScrape = async (urlToScrape) => {
+    setIsScrapingLoading(true);
     try {
       const result = await scrapeData(urlToScrape);
       if (result.success) {
@@ -59,10 +56,12 @@ export default function Home() {
         { role: "user", content: urlToScrape },
         { role: "assistant", content: "Failed to scrape and store data. Please try again." }
       ]);
+    } finally {
+      setIsScrapingLoading(false);
+      setUrl(''); // Clear the URL input after scraping
     }
   };
 
-  // TODO handle auto scrolling down
 
   const handleNormalMessage = async () => {
     setMessages((prevMessages) => [
@@ -76,7 +75,11 @@ export default function Home() {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify([...messages, {role: 'user', content: message}]),
+      body: JSON.stringify({
+        messages: [...messages, {role: 'user', content: message}],
+        selectedSchool: selectedSchool,
+        // isRmpLink: isRmpLink(message)
+      }),
     })
 
     const reader = response.body?.getReader()
@@ -99,32 +102,6 @@ export default function Home() {
     }
   }
 
-  const handleBulkScrape = async (urlToScrape) => { // TODO cut off after 40 seconds, make loading wheel
-    try {
-      const response = await fetch('/api/bulk_scrape_professors', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ url: urlToScrape }),
-      });
-  
-      const result = await response.json();
-  
-      setMessages((prevMessages) => [
-        ...prevMessages,
-        { role: "user", content: urlToScrape },
-        { role: "assistant", content: result.message }
-      ]);
-    } catch (error) {
-      console.error('Error:', error);
-      setMessages((prevMessages) => [
-        ...prevMessages,
-        { role: "user", content: urlToScrape },
-        { role: "assistant", content: "Failed to scrape and store bulk data. Please try again." }
-      ]);
-    }
-  };
 
   const handleKeyPress = (e) => {
     if (e.key === 'Enter' && !e.shiftKey) {
@@ -132,6 +109,23 @@ export default function Home() {
       sendMessage();
     }
   };
+
+  const handleUrlKeyPress = (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      handleScrape(url);
+    }
+  };
+
+  const messagesEndRef = useRef(null)
+
+  const scrollToBottom = () => {
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" })
+  }
+
+  useEffect(() => {
+    scrollToBottom()
+  }, [messages])
 
   return (
     <Box
@@ -146,84 +140,217 @@ export default function Home() {
     >
       <Box
         width="90vw"
-        height="90vh"
         maxWidth="1200px"
         display="flex"
         flexDirection="column"
-        borderRadius={4}
-        boxShadow={3}
-        overflow="hidden"
-        bgcolor="#3f3d3d"
+        gap={3}
       >
+        {/* Chatbot Interface */}
         <Box
-          flex={1}
-          overflow="auto"
-          p={3}
+          height="70vh"
           display="flex"
           flexDirection="column"
-          gap={2}
+          borderRadius={4}
+          boxShadow={3}
+          overflow="hidden"
+          bgcolor="#3f3d3d"
         >
-          {messages.map((message, index) => (
-            <Box
-              key={index}
-              alignSelf={
-                message.role === 'assistant' ? 'flex-start' : 'flex-end'
-              }
-              maxWidth="75%"
-              bgcolor={
-                message.role === 'assistant' ? '#1669bb' : '#666363'
-              }
-              color="white"
-              borderRadius={2}
-              p={2}
-              boxShadow={2}
-            >
-              {message.content}
-            </Box>
-          ))}
-        </Box>
-  
-        <Box
-          display="flex"
-          p={2}
-          bgcolor="#3f3d3d "
-          boxShadow={1}
-          alignItems="center"
-        >
-          <TextField
-            variant="outlined"
-            fullWidth
-            label="Send a Rate My Professor URL or message"
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-            onKeyPress={handleKeyPress}
-            sx={{
-              mr: 2,
-              '& .MuiOutlinedInput-root': {
-                '& fieldset': {
-                  borderColor: 'white',
+          <Box
+            flex={1}
+            overflow="auto"
+            p={3}
+            display="flex"
+            flexDirection="column"
+            gap={2}
+          >
+            {messages.map((message, index) => (
+              <Box
+                key={index}
+                alignSelf={
+                  message.role === 'assistant' ? 'flex-start' : 'flex-end'
+                }
+                maxWidth="75%"
+                bgcolor={
+                  message.role === 'assistant' ? '#1669bb' : '#666363'
+                }
+                color="white"
+                borderRadius={2}
+                p={2}
+                boxShadow={2}
+              >
+                {message.content}
+              </Box>
+            ))}
+            <div ref={messagesEndRef} />
+          </Box>
+    
+          <Box
+            display="flex"
+            p={2}
+            bgcolor="#3f3d3d"
+            boxShadow={1}
+            alignItems="center"
+          >
+            <TextField
+              variant="outlined"
+              fullWidth
+              label="Send a message"
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
+              onKeyPress={handleKeyPress}
+              sx={{
+                mr: 2,
+                '& .MuiOutlinedInput-root': {
+                  '& fieldset': {
+                    borderColor: 'white',
+                  },
+                  '&:hover fieldset': {
+                    borderColor: 'white',
+                  },
+                  '&.Mui-focused fieldset': {
+                    borderColor: 'white',
+                  },
+                  '& input': {
+                    color: 'white',
+                  },
                 },
-                '&:hover fieldset': {
-                  borderColor: 'white',
-                },
-                '&.Mui-focused fieldset': {
-                  borderColor: 'white',
-                },
-                '& input': {
+                '& .MuiInputLabel-root': {
                   color: 'white',
                 },
-              },
-              '& .MuiInputLabel-root': {
+                '& .MuiInputLabel-root.Mui-focused': {
+                  color: 'white',
+                },
+              }}
+            />
+            <IconButton color="primary" onClick={sendMessage}>
+              <Send />
+            </IconButton>
+          </Box>
+        </Box>
+
+        {/* School Selection and URL Input Boxes */}
+        <Box display="flex" gap={3}>
+          {/* School Selection Box */}
+          <Box
+            flex={1}
+            display="flex"
+            p={2}
+            bgcolor="#3f3d3d"
+            boxShadow={3}
+            borderRadius={4}
+            alignItems="center"
+          >
+            <FormControl fullWidth variant="outlined">
+            <InputLabel
+              id="school-select-label"
+              sx={{
                 color: 'white',
-              },
-              '& .MuiInputLabel-root.Mui-focused': {
-                color: 'white',
-              },
-            }}
-          />
-          <IconButton color="primary" onClick={sendMessage}>
-            <Send  />
-          </IconButton>
+                '&.Mui-focused': {
+                  color: 'white',
+                },
+              }}
+            >
+              Select a School
+            </InputLabel>
+              <Select
+                labelId="school-select-label"
+                value={selectedSchool}
+                onChange={(e) => setSelectedSchool(e.target.value)}
+                label="Select a School"
+                sx={{
+                  color: 'white',
+                  '& .MuiOutlinedInput-notchedOutline': {
+                    borderColor: 'white',
+                  },
+                  '&:hover .MuiOutlinedInput-notchedOutline': {
+                    borderColor: 'white',
+                  },
+                  '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
+                    borderColor: 'white',
+                  },
+                  '& .MuiSvgIcon-root': {
+                    color: 'white',
+                  },
+                }}
+                MenuProps={{
+                  PaperProps: {
+                    sx: {
+                      bgcolor: '#3f3d3d',
+                      '& .MuiMenuItem-root': {
+                        color: 'white',
+                      },
+                      '& .MuiMenuItem-root.Mui-selected': {
+                        bgcolor: '#5a5959',
+                      },
+                      '& .MuiMenuItem-root.Mui-selected:hover': {
+                        bgcolor: '#5a5959',
+                      },
+                    },
+                  },
+                }}
+              >
+                {schools.map((school) => (
+                  <MenuItem key={school.value} value={school.value}>
+                    {school.label}
+                  </MenuItem>
+                ))}
+                <MenuItem disabled sx={{ color: 'white', opacity: 0.7 }}>
+                  We will add support for more schools in the future!
+                </MenuItem>
+              </Select>
+            </FormControl>
+          </Box>
+
+          {/* URL Input Box */}
+          <Box
+            flex={1}
+            display="flex"
+            p={2}
+            bgcolor="#3f3d3d"
+            boxShadow={3}
+            borderRadius={4}
+            alignItems="center"
+          >
+            <TextField
+              variant="outlined"
+              fullWidth
+              label="Enter a Rate My Professor URL"
+              value={url}
+              onChange={(e) => setUrl(e.target.value)}
+              onKeyPress={handleUrlKeyPress}
+              sx={{
+                mr: 2,
+                '& .MuiOutlinedInput-root': {
+                  '& fieldset': {
+                    borderColor: 'white',
+                  },
+                  '&:hover fieldset': {
+                    borderColor: 'white',
+                  },
+                  '&.Mui-focused fieldset': {
+                    borderColor: 'white',
+                  },
+                  '& input': {
+                    color: 'white',
+                  },
+                },
+                '& .MuiInputLabel-root': {
+                  color: 'white',
+                },
+                '& .MuiInputLabel-root.Mui-focused': {
+                  color: 'white',
+                },
+              }}
+            />
+            <Button 
+              variant="contained" 
+              color="primary" 
+              onClick={() => handleScrape(url)}
+              disabled={isScrapingLoading}
+            >
+              {isScrapingLoading ? <CircularProgress size={24} color="inherit" /> : 'Scrape'}
+            </Button>
+          </Box>
         </Box>
       </Box>
     </Box>

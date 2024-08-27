@@ -2,14 +2,26 @@ import { NextResponse } from 'next/server'
 import { Pinecone } from '@pinecone-database/pinecone'
 import OpenAI from 'openai'
 
-const systemPrompt = `
-You are a rate my professor agent to help students find classes, that takes in user questions and answers them.
-For every user question, the top 3 professors that match the user question are returned, if they are in the same department as desired.
-Use them to answer the question if needed.
+const getSystemPrompt = (selectedSchool) => `
+You are a rate my professor agent to help students find classes at ${selectedSchool}, that takes in user questions and answers them. Only give information about professors if asked for, don't give it for no reason. 
+Only answer based on ${selectedSchool}. Do not give information about professors from other universities/schools.
+The user may provide a link to a professor's page on ratemyprofessor.com. Use scraped information from that page to answer more specific questions about that professor.
+Show information about each professor on a new line. If there is no relevant information available, clearly state that you do not have the required data.
+
+Examples:
+
+User query: Who are the best professors in the Computer Science department?
+Agent response:
+Here are some good science professors at ${selectedSchool} based on their ratings and difficulty: \n 1. Professor 1 \n   - Rating: 4.5 \n   - Difficulty: 3.5 \n\n 2. Professor 2 \n    - Rating: 4.0 \n    - Difficulty: 3.0
+
+If no professors match the query:
+Agent response:
+Sorry, I do not have enough information to answer your question about professors at ${selectedSchool}.
 `
 
 export async function POST(req) {
-    const data = await req.json()
+    const { messages, selectedSchool } = await req.json()
+    console.log(selectedSchool)
     
     const pc = new Pinecone({
         apiKey: process.env.PINECONE_API_KEY,
@@ -17,7 +29,7 @@ export async function POST(req) {
     const index = pc.index('ai-rate-my-professor').namespace('ns1')
     const openai = new OpenAI()
 
-    const text = data[data.length - 1].content
+    const text = messages[messages.length - 1].content
     const embedding = await openai.embeddings.create({
         model: 'text-embedding-3-small',
         input: text,
@@ -25,29 +37,34 @@ export async function POST(req) {
     })
 
     const results = await index.query({
-        topK: 5, // How many results we want
+        topK: 3, // How many results we want
         includeMetadata: true,
         vector: embedding.data[0].embedding,
+        // filter: { school: selectedSchool } // Add this line to filter by school
     })
 
     let resultString = ''
-    results.matches.forEach((match) => {
-        resultString += `
-        Returned Results:
-        Professor: ${match.id}
-        Review: ${match.metadata.stars}
-        Subject: ${match.metadata.subject}
-        Stars: ${match.metadata.stars}
-        \n\n`
-    })
+    if (results.matches.length > 0) {
+        results.matches.forEach((match) => {
+            resultString += `
+            Returned Results:
+            Professor: ${match.id}
+            Department: ${match.metadata.department}
+            Rating: ${match.metadata.rating}
+            Difficulty: ${match.metadata.difficulty}
+            \n\n`
+        })
+    } else {
+        resultString = `Sorry, I do not have enough information to answer your question about professors at ${selectedSchool}.`
+    }
 
-    const lastMessage = data[data.length - 1]
+    const lastMessage = messages[messages.length - 1]
     const lastMessageContent = lastMessage.content + resultString
-    const lastDataWithoutLastMessage = data.slice(0, data.length - 1)
+    const lastDataWithoutLastMessage = messages.slice(0, messages.length - 1)
 
     const completion = await openai.chat.completions.create({
         messages: [
-            {role: 'system', content: systemPrompt},
+            {role: 'system', content: getSystemPrompt(selectedSchool)},
             ...lastDataWithoutLastMessage,
             {role: 'user', content: lastMessageContent},
         ],
@@ -60,10 +77,10 @@ export async function POST(req) {
             const encoder = new TextEncoder()
             try {
                 for await (const chunk of completion) {
-                    const content = chunk.choices[0]?.delta?.content
+                    let content = chunk.choices[0]?.delta?.content
                     if (content) {
-                        const boldedContent = content.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-                        const text = encoder.encode(boldedContent)
+                        content = content.replace(/\*\*(.*?)\*\*/g, '$1')
+                        const text = encoder.encode(content)
                         controller.enqueue(text)
                     }
                 }  
