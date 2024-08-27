@@ -1,3 +1,5 @@
+// NOT BEING USED
+
 import { NextResponse } from 'next/server';
 import { scrapeProfessors, storeProfessorsInPinecone } from '../../utils/professorsScraper';
 

@@ -23,22 +23,15 @@ export default function Home() {
     }
   }
 
-  const sendMessage = async () => { // TODO Need better formatting of text (with new lines)
+  const sendMessage = async () => { //TODO format text better
     if (message.trim() === "") return;
-  
+
     if (isValidUrl(message)) {
-      const url = new URL(message);
-      if (url.hostname === "www.ratemyprofessors.com") {
-        if (url.pathname.startsWith("/professor/")) {
-          await handleScrape(message);
-        } else if (url.pathname.startsWith("/search/professors/")) {
-          await handleBulkScrape(message);
-        }
-      }
+      await handleScrape(message);
     } else {
       await handleNormalMessage();
     }
-  
+
     setMessage('');
   }
 
@@ -98,33 +91,6 @@ export default function Home() {
       }
     }
   }
-
-  const handleBulkScrape = async (urlToScrape) => { // TODO cut off after 40 seconds, make loading wheel
-    try {
-      const response = await fetch('/api/bulk_scrape_professors', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ url: urlToScrape }),
-      });
-  
-      const result = await response.json();
-  
-      setMessages((prevMessages) => [
-        ...prevMessages,
-        { role: "user", content: urlToScrape },
-        { role: "assistant", content: result.message }
-      ]);
-    } catch (error) {
-      console.error('Error:', error);
-      setMessages((prevMessages) => [
-        ...prevMessages,
-        { role: "user", content: urlToScrape },
-        { role: "assistant", content: "Failed to scrape and store bulk data. Please try again." }
-      ]);
-    }
-  };
 
   const handleKeyPress = (e) => {
     if (e.key === 'Enter' && !e.shiftKey) {

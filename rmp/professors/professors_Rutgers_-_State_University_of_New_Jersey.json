@@ -1,0 +1,6370 @@
+[
+  {
+    "name": "Robert Evans",
+    "department": "Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.4",
+    "numRatings": "52 ratings",
+    "difficulty": "2.9"
+  },
+  {
+    "name": "Roger Clark",
+    "department": "Law",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Gilbert Papali",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.5",
+    "numRatings": "2 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Allie Miler",
+    "department": "Accounting",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "5 ratings",
+    "difficulty": "3.8"
+  },
+  {
+    "name": "Warren Haynes",
+    "department": "Public Administration",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Amy Anderson",
+    "department": "Law",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Martin Bieber",
+    "department": "Health Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Fontaine Fulghum",
+    "department": "Social Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.2",
+    "numRatings": "10 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Charles Idler",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "4 ratings",
+    "difficulty": "2.3"
+  },
+  {
+    "name": "Natasha Soto",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Alexandra O'Donnell",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.8",
+    "numRatings": "3 ratings",
+    "difficulty": "1.8"
+  },
+  {
+    "name": "Robert Schindler",
+    "department": "Marketing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.1",
+    "numRatings": "26 ratings",
+    "difficulty": "3.4"
+  },
+  {
+    "name": "Shauna Shames",
+    "department": "Political Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.1",
+    "numRatings": "7 ratings",
+    "difficulty": "3.4"
+  },
+  {
+    "name": "Ann Rosen Spector",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "15 ratings",
+    "difficulty": "3.7"
+  },
+  {
+    "name": "Holly Blackford",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "44 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Russell Harrison",
+    "department": "Political Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.9",
+    "numRatings": "7 ratings",
+    "difficulty": "2.6"
+  },
+  {
+    "name": "Michael D'Antonio",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.3",
+    "numRatings": "2 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "Alessia Marigo",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.7",
+    "numRatings": "3 ratings",
+    "difficulty": "4.3"
+  },
+  {
+    "name": "Debra Park",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "4 ratings",
+    "difficulty": "2.7"
+  },
+  {
+    "name": "Ken Hohing",
+    "department": "Fine Arts",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.4",
+    "numRatings": "24 ratings",
+    "difficulty": "3.2"
+  },
+  {
+    "name": "Judson Packard",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "KRISTIE MCALPINE",
+    "department": "Human Resources",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "4 ratings",
+    "difficulty": "3.8"
+  },
+  {
+    "name": "Michael Gentzel",
+    "department": "Philosophy",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "12 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "Maisha Aziz",
+    "department": "Law",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.1",
+    "numRatings": "12 ratings",
+    "difficulty": "2.8"
+  },
+  {
+    "name": "Amy Lawless",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "21 ratings",
+    "difficulty": "1.9"
+  },
+  {
+    "name": "Ryan Weightman",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "2 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Bruce Garrity",
+    "department": "Fine Arts",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.1",
+    "numRatings": "21 ratings",
+    "difficulty": "2.4"
+  },
+  {
+    "name": "Kirsten Nussbaumer",
+    "department": "Political Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.5",
+    "numRatings": "2 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Josephine Johansen",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "51 ratings",
+    "difficulty": "2.3"
+  },
+  {
+    "name": "Smruthi Kannan",
+    "department": "Child amp Family Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Emily Beach",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.1",
+    "numRatings": "14 ratings",
+    "difficulty": "2.7"
+  },
+  {
+    "name": "Tony Urban",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.2",
+    "numRatings": "30 ratings",
+    "difficulty": "1.4"
+  },
+  {
+    "name": "Felix William",
+    "department": "Political Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.6",
+    "numRatings": "5 ratings",
+    "difficulty": "2.6"
+  },
+  {
+    "name": "Jerry Gambs",
+    "department": "Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.6",
+    "numRatings": "16 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "Uzi Yaari",
+    "department": "Finance",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.8",
+    "numRatings": "15 ratings",
+    "difficulty": "3.4"
+  },
+  {
+    "name": "Thomas Bell",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.4",
+    "numRatings": "10 ratings",
+    "difficulty": "2.7"
+  },
+  {
+    "name": "John Wall",
+    "department": "Philosophy",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.4",
+    "numRatings": "14 ratings",
+    "difficulty": "2.4"
+  },
+  {
+    "name": "James Rushing",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.1",
+    "numRatings": "26 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Leslie Daniels",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.9",
+    "numRatings": "6 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "Brenna Stone",
+    "department": "Criminal Justice",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.0",
+    "numRatings": "3 ratings",
+    "difficulty": "3.4"
+  },
+  {
+    "name": "Richard Michelfelder",
+    "department": "Finance",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.6",
+    "numRatings": "11 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Brigitte Cypress",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.0",
+    "numRatings": "6 ratings",
+    "difficulty": "3.8"
+  },
+  {
+    "name": "Mary Bravo",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "9 ratings",
+    "difficulty": "2.3"
+  },
+  {
+    "name": "Kimberly Richmond",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.3",
+    "numRatings": "3 ratings",
+    "difficulty": "5"
+  },
+  {
+    "name": "Patrick Cox",
+    "department": "Child & Family Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "2 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Ralph Russell",
+    "department": "Music",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.0",
+    "numRatings": "1 ratings",
+    "difficulty": "5"
+  },
+  {
+    "name": "Jennifer King",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.9",
+    "numRatings": "4 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Dorothy Brocco",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "2 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "James Gallagher",
+    "department": "Accounting",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "13 ratings",
+    "difficulty": "2.4"
+  },
+  {
+    "name": "Janice Beitz",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.5",
+    "numRatings": "2 ratings",
+    "difficulty": "5"
+  },
+  {
+    "name": "Joyce Belcher",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.2",
+    "numRatings": "3 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Ralph Quinn",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.5",
+    "numRatings": "2 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Phillip Scranton",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "2 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Leigh-Anne Francis",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "3 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Karen Vardanyan",
+    "department": "Physics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.4",
+    "numRatings": "4 ratings",
+    "difficulty": "2.3"
+  },
+  {
+    "name": "Kevin Dorn",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "1 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Steven Levine",
+    "department": "Education",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Cheryl Chavis",
+    "department": "Child & Family Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.7",
+    "numRatings": "3 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "John Collins",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Ryan Walker",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.0",
+    "numRatings": "2 ratings",
+    "difficulty": "4.5"
+  },
+  {
+    "name": "April Graham",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.9",
+    "numRatings": "8 ratings",
+    "difficulty": "3.8"
+  },
+  {
+    "name": "Shahab Zadeh",
+    "department": "Engineering",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.5",
+    "numRatings": "8 ratings",
+    "difficulty": "4.3"
+  },
+  {
+    "name": "Renee Drouin",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "5 ratings",
+    "difficulty": "2.6"
+  },
+  {
+    "name": "Laurie Bernstein",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "38 ratings",
+    "difficulty": "3.7"
+  },
+  {
+    "name": "Cyril Reade",
+    "department": "Art",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.0",
+    "numRatings": "2 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Julianne Baird",
+    "department": "Music",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.5",
+    "numRatings": "17 ratings",
+    "difficulty": "3.2"
+  },
+  {
+    "name": "Susan Cydis",
+    "department": "Education",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "13 ratings",
+    "difficulty": "2.7"
+  },
+  {
+    "name": "Shin-Yi Chao",
+    "department": "Religion",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.9",
+    "numRatings": "11 ratings",
+    "difficulty": "2.6"
+  },
+  {
+    "name": "Heather Struck",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.5",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Ashley Denegre",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Maureen Morrin",
+    "department": "Marketing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Ira Kauffman",
+    "department": "Education",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "3 ratings",
+    "difficulty": "1.7"
+  },
+  {
+    "name": "Sophie Gorlin",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.5",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Panizza Donata",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "2 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "Cheryl Torres",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "2 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "Maryanna Giello",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.7",
+    "numRatings": "12 ratings",
+    "difficulty": "2.1"
+  },
+  {
+    "name": "SU Kadambe",
+    "department": "Economics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "1 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": ". Downing",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.9",
+    "numRatings": "25 ratings",
+    "difficulty": "3.1"
+  },
+  {
+    "name": "Jillian Sayre",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.3",
+    "numRatings": "5 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Joseph Shinn",
+    "department": "Economics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "3 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Daniel Bubb",
+    "department": "Physics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.7",
+    "numRatings": "25 ratings",
+    "difficulty": "3.7"
+  },
+  {
+    "name": "Sarada Balagopalan",
+    "department": "Child amp Family Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.1",
+    "numRatings": "4 ratings",
+    "difficulty": "4.1"
+  },
+  {
+    "name": "Heather Ilconich",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Dan Hart",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.9",
+    "numRatings": "22 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "Olga Moore",
+    "department": "Fine Arts",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.1",
+    "numRatings": "4 ratings",
+    "difficulty": "4.5"
+  },
+  {
+    "name": "Ana Laguna",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.1",
+    "numRatings": "19 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Jose Gonzalez-Perez",
+    "department": "Law",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "4 ratings",
+    "difficulty": "1.3"
+  },
+  {
+    "name": "Jacob Soll",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.1",
+    "numRatings": "4 ratings",
+    "difficulty": "4.8"
+  },
+  {
+    "name": "Susan Higgins",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.9",
+    "numRatings": "10 ratings",
+    "difficulty": "1.1"
+  },
+  {
+    "name": "Sandy Festa",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "5 ratings",
+    "difficulty": "1.6"
+  },
+  {
+    "name": "Wendy Woloson",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.4",
+    "numRatings": "3 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Jerome Dropcho",
+    "department": "Human Resources",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "3 ratings",
+    "difficulty": "1.4"
+  },
+  {
+    "name": "Emma Duncan",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.7",
+    "numRatings": "3 ratings",
+    "difficulty": "2.7"
+  },
+  {
+    "name": "Devlina Chakravarty",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Michael Chu",
+    "department": "Computer Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.9",
+    "numRatings": "9 ratings",
+    "difficulty": "2.1"
+  },
+  {
+    "name": "Matthew Stilley",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Sean Duffy",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "71 ratings",
+    "difficulty": "2.8"
+  },
+  {
+    "name": "Barbara Kutis",
+    "department": "Art",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.3",
+    "numRatings": "5 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Ana Tamayo",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.9",
+    "numRatings": "6 ratings",
+    "difficulty": "1.5"
+  },
+  {
+    "name": "Daniel Russo",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "5"
+  },
+  {
+    "name": "Nicole Lawrence",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "4 ratings",
+    "difficulty": "2.3"
+  },
+  {
+    "name": "Maureen Donaghy",
+    "department": "Political Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.1",
+    "numRatings": "4 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Theresa Murzyn",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.7",
+    "numRatings": "3 ratings",
+    "difficulty": "3.3"
+  },
+  {
+    "name": "Iona Latu",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "John Rapacz",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "James Boucher",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.7",
+    "numRatings": "3 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Kat Griefen",
+    "department": "Women's Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.9",
+    "numRatings": "10 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Emily Wood",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "17 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Joseph Honer",
+    "department": "Accounting",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.3",
+    "numRatings": "4 ratings",
+    "difficulty": "3.8"
+  },
+  {
+    "name": "Ja'Neisha Hutley",
+    "department": "Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Julia Zavadsky",
+    "department": "Music",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "14 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "Vadim Balashov",
+    "department": "Finance",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.5",
+    "numRatings": "16 ratings",
+    "difficulty": "3.6"
+  },
+  {
+    "name": "Alex Roche",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "40 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "Ana Llurba",
+    "department": "Arts & Sciences",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Elsa Candelario",
+    "department": "Sociology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "4 ratings",
+    "difficulty": "2.8"
+  },
+  {
+    "name": "Madison Rogers",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Tom Cioppa",
+    "department": "Political Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "George Arthur",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.8",
+    "numRatings": "5 ratings",
+    "difficulty": "3.9"
+  },
+  {
+    "name": "Joan Mazelis",
+    "department": "Sociology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.7",
+    "numRatings": "27 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Michelle Mitcham",
+    "department": "Education",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.0",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Yikai Teng",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.0",
+    "numRatings": "1 ratings",
+    "difficulty": "5"
+  },
+  {
+    "name": "Seema Sahni",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "2 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Theresa  Herman",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "18 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Xiaomeng Jin",
+    "department": "Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Rudrani Sarma",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Asmita Saha",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.5",
+    "numRatings": "2 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "Hyun Kim",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "1 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Brad Nathan",
+    "department": "Accounting",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Aleksandr Shirokov",
+    "department": "Communication",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Ayla McCullough",
+    "department": "Social Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Guang  Ma",
+    "department": "Accounting",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "2 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "Robert Hughes",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Stephen Bernardini",
+    "department": "Child & Family Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.9",
+    "numRatings": "9 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Alexander Samokhvalov",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.9",
+    "numRatings": "6 ratings",
+    "difficulty": "3.3"
+  },
+  {
+    "name": "Wayne Chan",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "6 ratings",
+    "difficulty": "1.3"
+  },
+  {
+    "name": "Christopher Nave",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.7",
+    "numRatings": "17 ratings",
+    "difficulty": "2.9"
+  },
+  {
+    "name": "Mark West",
+    "department": "Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Kathy Andrews-Williams",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "10 ratings",
+    "difficulty": "1.6"
+  },
+  {
+    "name": "Marta Zarzycka",
+    "department": "Women's Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.5",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Ed Kuljian",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.9",
+    "numRatings": "4 ratings",
+    "difficulty": "2.3"
+  },
+  {
+    "name": "James Genone",
+    "department": "Philosophy",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.8",
+    "numRatings": "2 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Diane Marano",
+    "department": "Criminal Justice",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.4",
+    "numRatings": "5 ratings",
+    "difficulty": "1.8"
+  },
+  {
+    "name": "Jason Bird",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "4 ratings",
+    "difficulty": "1.8"
+  },
+  {
+    "name": "Joseph Camiolo",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.9",
+    "numRatings": "6 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Deszeree Thomas",
+    "department": "Child & Family Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Grace Mansilla",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "6 ratings",
+    "difficulty": "2.3"
+  },
+  {
+    "name": "Douglas Zacher",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "5 ratings",
+    "difficulty": "2.4"
+  },
+  {
+    "name": "Mark Fiedler",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.1",
+    "numRatings": "29 ratings",
+    "difficulty": "2.9"
+  },
+  {
+    "name": "Brenda Jorett",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.6",
+    "numRatings": "7 ratings",
+    "difficulty": "2.7"
+  },
+  {
+    "name": "David Cheatham",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.0",
+    "numRatings": "1 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Emma Wu",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Lori Ann McGuffin",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.8",
+    "numRatings": "7 ratings",
+    "difficulty": "1.6"
+  },
+  {
+    "name": "Varun Singh",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "5 ratings",
+    "difficulty": "2.4"
+  },
+  {
+    "name": "Dan Lee",
+    "department": "Journalism",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.8",
+    "numRatings": "3 ratings",
+    "difficulty": "2.7"
+  },
+  {
+    "name": "Lisa Riva",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "1.5"
+  },
+  {
+    "name": "Ketan Bhave",
+    "department": "Physics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Elcin Haskollar",
+    "department": "Political Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Johanna Klena",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.7",
+    "numRatings": "3 ratings",
+    "difficulty": "2.7"
+  },
+  {
+    "name": "Travis McKinney",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Zac Roesch",
+    "department": "Writing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Jay McKeen",
+    "department": "Writing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Ingrid Campbell",
+    "department": "Child & Family Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Sarah Kennedy",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "3 ratings",
+    "difficulty": "1.7"
+  },
+  {
+    "name": "Nick Sanchirico",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Cody Stevens",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "4 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Sam Starnes",
+    "department": "Communication",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Alene Plevinsky",
+    "department": "Education",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Kristin O'Neil",
+    "department": "Education",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Tom Johnko",
+    "department": "Physics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Edwina Haring",
+    "department": "Business Administration",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.9",
+    "numRatings": "16 ratings",
+    "difficulty": "4.4"
+  },
+  {
+    "name": "Alan Tarr",
+    "department": "Political Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Jake Soll",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.2",
+    "numRatings": "28 ratings",
+    "difficulty": "4.5"
+  },
+  {
+    "name": ". Nordberg",
+    "department": "Physics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.2",
+    "numRatings": "13 ratings",
+    "difficulty": "1.9"
+  },
+  {
+    "name": "Ted Goertzel",
+    "department": "Sociology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.6",
+    "numRatings": "13 ratings",
+    "difficulty": "2.7"
+  },
+  {
+    "name": ". Brownfield",
+    "department": "Sociology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "19 ratings",
+    "difficulty": "1.7"
+  },
+  {
+    "name": "Bill Felix",
+    "department": "Political Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.6",
+    "numRatings": "18 ratings",
+    "difficulty": "2.9"
+  },
+  {
+    "name": "Myra Bluebond-Langner",
+    "department": "Anthropology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.8",
+    "numRatings": "9 ratings",
+    "difficulty": "3.1"
+  },
+  {
+    "name": "Steven Friedell",
+    "department": "Law",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "1 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Aman McLeod",
+    "department": "Political Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.4",
+    "numRatings": "7 ratings",
+    "difficulty": "2.7"
+  },
+  {
+    "name": ". Kendell",
+    "department": "Management",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.3",
+    "numRatings": "4 ratings",
+    "difficulty": "3.3"
+  },
+  {
+    "name": "Violet Glaze",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.4",
+    "numRatings": "6 ratings",
+    "difficulty": "1.5"
+  },
+  {
+    "name": ". Wurst",
+    "department": "Accounting",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.6",
+    "numRatings": "4 ratings",
+    "difficulty": "3.8"
+  },
+  {
+    "name": "J Madden-Zibman",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Chia-Miao Liu",
+    "department": "Economics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.3",
+    "numRatings": "3 ratings",
+    "difficulty": "3.3"
+  },
+  {
+    "name": "Tingni Sun",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Sridevi Shivarajan",
+    "department": "Human Resources",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Joyce Kuykendall",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "3 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Arunava Banerjee",
+    "department": "Computer Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.3",
+    "numRatings": "3 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "David Case",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Howard Marchitello",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.6",
+    "numRatings": "9 ratings",
+    "difficulty": "3.2"
+  },
+  {
+    "name": "Darcella Sessomes-Patterson",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "GE Breitenbeck",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.3",
+    "numRatings": "4 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "- Hurewitz",
+    "department": "Information Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Phaedra Daipha",
+    "department": "Sociology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.9",
+    "numRatings": "4 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Michael Sullivan",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "3 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Michael Palis",
+    "department": "Computer Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "1 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "David Solomon",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "2 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Nissa Lee",
+    "department": "Writing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.2",
+    "numRatings": "3 ratings",
+    "difficulty": "1.7"
+  },
+  {
+    "name": "James Faccinto",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.6",
+    "numRatings": "4 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Art Ingram",
+    "department": "Accounting",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Joe  Kawash",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.1",
+    "numRatings": "5 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Robin Brownfield",
+    "department": "Sociology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Melissa Higgins",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.8",
+    "numRatings": "3 ratings",
+    "difficulty": "2.3"
+  },
+  {
+    "name": "Brian Folks",
+    "department": "Physics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Kate Arillo",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "3 ratings",
+    "difficulty": "1.4"
+  },
+  {
+    "name": ". Sayers",
+    "department": "Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "48 ratings",
+    "difficulty": "4.8"
+  },
+  {
+    "name": "Jinpeg Ma",
+    "department": "Economics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.3",
+    "numRatings": "20 ratings",
+    "difficulty": "3.1"
+  },
+  {
+    "name": "Susan Miller",
+    "department": "Child amp Family Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "2 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Katrina DeWitt",
+    "department": "Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Cindy Clark",
+    "department": "Anthropology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "8 ratings",
+    "difficulty": "3.3"
+  },
+  {
+    "name": "Emily Helck",
+    "department": "Writing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "4 ratings",
+    "difficulty": "2.8"
+  },
+  {
+    "name": "Connor Pitman",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Timothy Knievel",
+    "department": "Political Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "27 ratings",
+    "difficulty": "3.4"
+  },
+  {
+    "name": "Michelle Meloy",
+    "department": "Criminal Justice",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "18 ratings",
+    "difficulty": "3.6"
+  },
+  {
+    "name": "John Gohagan",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.4",
+    "numRatings": "3 ratings",
+    "difficulty": "4.8"
+  },
+  {
+    "name": "Nancy Hill",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Wanda Mandecki",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "6 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "Joseph Joiner",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.7",
+    "numRatings": "30 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Zachary Wood",
+    "department": "Communication",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Liam Sharp",
+    "department": "Physics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Louise Horowitz",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.6",
+    "numRatings": "14 ratings",
+    "difficulty": "3.4"
+  },
+  {
+    "name": "Sara Becker",
+    "department": "Education",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "6 ratings",
+    "difficulty": "1.7"
+  },
+  {
+    "name": "Frank Phillps",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "2 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Daniel Cargill",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Nawaf Bou-Rabee",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Peter Theodossiou",
+    "department": "Finance",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.0",
+    "numRatings": "6 ratings",
+    "difficulty": "4.2"
+  },
+  {
+    "name": "sanjay macwan",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Rosemary Kaiser",
+    "department": "Economics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Ellen Goodman",
+    "department": "Law",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "15 ratings",
+    "difficulty": "3.8"
+  },
+  {
+    "name": "Helena Cabezas",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Juliet Gelfman-Randazzo",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Kimberlee Moran",
+    "department": "Arts & Sciences",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.9",
+    "numRatings": "6 ratings",
+    "difficulty": "2.9"
+  },
+  {
+    "name": "Sean Higgins",
+    "department": "Human Resources",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "William Ryan",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.7",
+    "numRatings": "3 ratings",
+    "difficulty": "2.3"
+  },
+  {
+    "name": "Hazel Johnson",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "13 ratings",
+    "difficulty": "2.6"
+  },
+  {
+    "name": "Andrea Quinn",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Elisabeth Yang",
+    "department": "Philosophy amp Religion",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Jarred Antonucci",
+    "department": "Music",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": ". Olsen",
+    "department": "Marketing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.4",
+    "numRatings": "4 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Renee Solimelo",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "2 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Mary Cahill",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.1",
+    "numRatings": "4 ratings",
+    "difficulty": "4.5"
+  },
+  {
+    "name": "Chris Sottolano",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Gillian Murray",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "2 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Joseph Cutuli",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.6",
+    "numRatings": "9 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Wayne Glasker",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "54 ratings",
+    "difficulty": "1.9"
+  },
+  {
+    "name": ". Pfeuffer-Schere",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Daniel Shain",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.1",
+    "numRatings": "12 ratings",
+    "difficulty": "3.3"
+  },
+  {
+    "name": "Katherine Epstein",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.6",
+    "numRatings": "9 ratings",
+    "difficulty": "4.4"
+  },
+  {
+    "name": "John Farquhar",
+    "department": "Arts & Sciences",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.7",
+    "numRatings": "13 ratings",
+    "difficulty": "2.8"
+  },
+  {
+    "name": "Andrea Jones",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Liqin Tan",
+    "department": "Fine Arts",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.1",
+    "numRatings": "7 ratings",
+    "difficulty": "3.1"
+  },
+  {
+    "name": "Allen Ross",
+    "department": "Criminal Justice",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Egan Dennis",
+    "department": "Computer Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Laura Brzyski",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "4 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Andrew Abeyta",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.4",
+    "numRatings": "7 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Charles Fajgier",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.5",
+    "numRatings": "4 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Dennis Patterson",
+    "department": "Law",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Jose Torres",
+    "department": "Information Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "5 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Bernardo Hiraldo",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.6",
+    "numRatings": "7 ratings",
+    "difficulty": "2.1"
+  },
+  {
+    "name": "Patrick McCarty",
+    "department": "Anthropology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.8",
+    "numRatings": "25 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Sarah Quintana",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Yaou Zhou",
+    "department": "Accounting",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "2 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Cathleen Coe",
+    "department": "African-American Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Louis Matzel",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.4",
+    "numRatings": "5 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Tracy Norris",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Shanyn Fiske",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.3",
+    "numRatings": "40 ratings",
+    "difficulty": "4.4"
+  },
+  {
+    "name": "Gianna Bowler Darrow",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "4 ratings",
+    "difficulty": "1.8"
+  },
+  {
+    "name": "Jill Capuzzo",
+    "department": "Journalism",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.4",
+    "numRatings": "21 ratings",
+    "difficulty": "3.3"
+  },
+  {
+    "name": "Nicole Santilli Doyle",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Suneeta Ramaswami",
+    "department": "Computer Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.7",
+    "numRatings": "3 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Sara Plummer",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Sangita Pudasainee-Kapr",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.0",
+    "numRatings": "1 ratings",
+    "difficulty": "5"
+  },
+  {
+    "name": "Marie Chevrier",
+    "department": "Political Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Jermaine Monk",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Joseph Zapytowski",
+    "department": "Art Education",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.5",
+    "numRatings": "4 ratings",
+    "difficulty": "4.3"
+  },
+  {
+    "name": "Michelle Dixon Palmer",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "7 ratings",
+    "difficulty": "1.6"
+  },
+  {
+    "name": "Richard Stagliano",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "14 ratings",
+    "difficulty": "1.8"
+  },
+  {
+    "name": "Sunil Shende",
+    "department": "Computer Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.0",
+    "numRatings": "10 ratings",
+    "difficulty": "4.2"
+  },
+  {
+    "name": "Belinda McKeon",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Justin Deng",
+    "department": "Accounting",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "8 ratings",
+    "difficulty": "3.4"
+  },
+  {
+    "name": "Chantine Akiyama Poh",
+    "department": "Writing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Steven Brill",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.8",
+    "numRatings": "17 ratings",
+    "difficulty": "4.4"
+  },
+  {
+    "name": "Julie Peters",
+    "department": "Literature",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Dawne Mouzon",
+    "department": "Sociology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "2 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Pamela Ward",
+    "department": "Information Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Mike Duffy",
+    "department": "Writing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.7",
+    "numRatings": "3 ratings",
+    "difficulty": "1.7"
+  },
+  {
+    "name": "Hector Blanco",
+    "department": "Economics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Debashis Kushary",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.5",
+    "numRatings": "43 ratings",
+    "difficulty": "3.6"
+  },
+  {
+    "name": "Emel Kahya",
+    "department": "Accounting",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.7",
+    "numRatings": "10 ratings",
+    "difficulty": "3.6"
+  },
+  {
+    "name": "Ross Allen",
+    "department": "Criminal Justice",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "28 ratings",
+    "difficulty": "3.6"
+  },
+  {
+    "name": "Patti Ippoliti",
+    "department": "Management",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.7",
+    "numRatings": "87 ratings",
+    "difficulty": "3.6"
+  },
+  {
+    "name": "Selim Cakmakli",
+    "department": "Economics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.6",
+    "numRatings": "8 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Elizabeth Snyder",
+    "department": "Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Melissa Yates",
+    "department": "Philosophy",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "15 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Joe Barbarese",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.1",
+    "numRatings": "36 ratings",
+    "difficulty": "3.9"
+  },
+  {
+    "name": "Elizabeth Croce",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "3 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Christopher Maute",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Kelle Carbone",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Manuela Katt",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "6 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Yeung-Gyo Shin",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.0",
+    "numRatings": "2 ratings",
+    "difficulty": "5"
+  },
+  {
+    "name": "Haydee Herrera-Guzman",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Valerie  Adams Bass",
+    "department": "Child & Family Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Songhao Zhu",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Erikka Chowdhury",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Charles McLeester",
+    "department": "Marketing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Mahseh Nerurkar",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.9",
+    "numRatings": "35 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Beth Pillod",
+    "department": "Art History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.1",
+    "numRatings": "7 ratings",
+    "difficulty": "2.6"
+  },
+  {
+    "name": "Rachel Derr",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Michael Reagan",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Zak Borden",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.7",
+    "numRatings": "16 ratings",
+    "difficulty": "4.7"
+  },
+  {
+    "name": "Elizabeth Vanderven",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.6",
+    "numRatings": "14 ratings",
+    "difficulty": "3.3"
+  },
+  {
+    "name": "Daria Torres",
+    "department": "Management",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "4 ratings",
+    "difficulty": "3.8"
+  },
+  {
+    "name": "Fred Fife",
+    "department": "Criminal Justice",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "5 ratings",
+    "difficulty": "1.9"
+  },
+  {
+    "name": "Tim Quinty",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.9",
+    "numRatings": "10 ratings",
+    "difficulty": "4.5"
+  },
+  {
+    "name": "Rebecca Graham",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "5"
+  },
+  {
+    "name": "Michelle Verges",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.6",
+    "numRatings": "9 ratings",
+    "difficulty": "4.6"
+  },
+  {
+    "name": "Jen Boiler",
+    "department": "Sociology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "4 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Andrei Nikoforov",
+    "department": "Finance",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.4",
+    "numRatings": "4 ratings",
+    "difficulty": "2.3"
+  },
+  {
+    "name": "Charles Jarrett",
+    "department": "Philosophy",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.2",
+    "numRatings": "19 ratings",
+    "difficulty": "3.4"
+  },
+  {
+    "name": "Robert Ryan",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "10 ratings",
+    "difficulty": "2.6"
+  },
+  {
+    "name": ". Kane",
+    "department": "Accounting",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.4",
+    "numRatings": "8 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "Robert Doran",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "15 ratings",
+    "difficulty": "1.9"
+  },
+  {
+    "name": "Margaret Piccolo",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.2",
+    "numRatings": "31 ratings",
+    "difficulty": "2.6"
+  },
+  {
+    "name": "Kathy  McCaffrey",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Sean O'Malley",
+    "department": "Physics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "6 ratings",
+    "difficulty": "4.2"
+  },
+  {
+    "name": "Melissa Adamo",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.3",
+    "numRatings": "2 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Carl Jensen",
+    "department": "Economics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Sam Rabinowitz",
+    "department": "Management",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "1 ratings",
+    "difficulty": "5"
+  },
+  {
+    "name": "Jill Cox",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "3 ratings",
+    "difficulty": "2.3"
+  },
+  {
+    "name": "Ken Elliott",
+    "department": "Theater",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "4 ratings",
+    "difficulty": "2.3"
+  },
+  {
+    "name": "Kimberly Martin",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Eugene Pilotte",
+    "department": "Finance",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "10 ratings",
+    "difficulty": "2.6"
+  },
+  {
+    "name": "Rose Miller",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Paul Jargowsky",
+    "department": "Not Specified",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "William Fitzgerald",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.3",
+    "numRatings": "8 ratings",
+    "difficulty": "1.8"
+  },
+  {
+    "name": "Frank Bridges",
+    "department": "Communication",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Mary Wunnenberg",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "2 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Ruth Pulgarin",
+    "department": "Music",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Anuja Gupta",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Juliana Roth",
+    "department": "Writing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "3 ratings",
+    "difficulty": "2.4"
+  },
+  {
+    "name": "Robert Smith",
+    "department": "Music",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "2 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Kwangwon Lee",
+    "department": "Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.1",
+    "numRatings": "22 ratings",
+    "difficulty": "2.9"
+  },
+  {
+    "name": "Brandon Creel",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.3",
+    "numRatings": "6 ratings",
+    "difficulty": "3.8"
+  },
+  {
+    "name": "Carmen Adamucci",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.3",
+    "numRatings": "9 ratings",
+    "difficulty": "2.7"
+  },
+  {
+    "name": "Crystal Bourne",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "6 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Nicole Pope",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.0",
+    "numRatings": "1 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "A Boyle",
+    "department": "Art & Design",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "2 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "David Low",
+    "department": "Religion",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Elijah Brookes",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.8",
+    "numRatings": "3 ratings",
+    "difficulty": "3.7"
+  },
+  {
+    "name": "Jonathan Parker",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.2",
+    "numRatings": "3 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Danie Moss Velasco",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.0",
+    "numRatings": "4 ratings",
+    "difficulty": "4.9"
+  },
+  {
+    "name": "Jacob Russell",
+    "department": "Law",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Robin Wiley",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Jae Lee",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Ann Heidelberg",
+    "department": "Education",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "6 ratings",
+    "difficulty": "2.4"
+  },
+  {
+    "name": "Allison Wisniewski",
+    "department": "Women's Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Joanna Cohen Kallan",
+    "department": "Sociology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.3",
+    "numRatings": "17 ratings",
+    "difficulty": "4.1"
+  },
+  {
+    "name": "Nicole Basham",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Rakesh Sambharya",
+    "department": "Management",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.8",
+    "numRatings": "9 ratings",
+    "difficulty": "3.6"
+  },
+  {
+    "name": "Kelly Dittmar",
+    "department": "Political Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.1",
+    "numRatings": "7 ratings",
+    "difficulty": "3.6"
+  },
+  {
+    "name": "Sara Fiorot",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "7 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Lorrin Thomas",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.7",
+    "numRatings": "26 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Lauren Grodstein",
+    "department": "Writing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "8 ratings",
+    "difficulty": "2.6"
+  },
+  {
+    "name": "Shannon Fandler",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "2 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "Julia Kurnik",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Susan Norris",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Catherine Rosenberg",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "2 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": ". Yin",
+    "department": "Accounting",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.7",
+    "numRatings": "10 ratings",
+    "difficulty": "1.8"
+  },
+  {
+    "name": "Joseph L. Gerver",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.6",
+    "numRatings": "15 ratings",
+    "difficulty": "2.9"
+  },
+  {
+    "name": "Anne Vial",
+    "department": "Education",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.3",
+    "numRatings": "22 ratings",
+    "difficulty": "3.4"
+  },
+  {
+    "name": "Naina Chaturvedi",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.3",
+    "numRatings": "8 ratings",
+    "difficulty": "3.3"
+  },
+  {
+    "name": "Harold Ning",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.0",
+    "numRatings": "2 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Mark Goldhammer",
+    "department": "Economics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.9",
+    "numRatings": "4 ratings",
+    "difficulty": "2.4"
+  },
+  {
+    "name": "Kahng Sungwoo",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Alexander Rogers",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "William M. Saidel",
+    "department": "Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.7",
+    "numRatings": "18 ratings",
+    "difficulty": "3.6"
+  },
+  {
+    "name": "Aleniegska Hejna",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Jennifer Buckman",
+    "department": "Health Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Dana Harrison",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.9",
+    "numRatings": "7 ratings",
+    "difficulty": "2.1"
+  },
+  {
+    "name": "Mike Zorfass",
+    "department": "Education",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.6",
+    "numRatings": "9 ratings",
+    "difficulty": "1.9"
+  },
+  {
+    "name": "Leslie Rapparlie",
+    "department": "Writing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Binxing YU",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "2 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Jill Brown",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Kat Samuels",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "3 ratings",
+    "difficulty": "1.3"
+  },
+  {
+    "name": "Jenny Bello",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.6",
+    "numRatings": "20 ratings",
+    "difficulty": "3.6"
+  },
+  {
+    "name": "Jessica Lee",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Jake Rutkowski",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Mason Hopkins",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Tyler Butler",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Peyton Conrey",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Moss Velasco",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "John Clarry",
+    "department": "International Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.4",
+    "numRatings": "9 ratings",
+    "difficulty": "2.8"
+  },
+  {
+    "name": "Charles Molano",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "14 ratings",
+    "difficulty": "3.6"
+  },
+  {
+    "name": "Anushriya Subedy",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Sully Fernandez",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Ivo Jansen",
+    "department": "Accounting",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.9",
+    "numRatings": "22 ratings",
+    "difficulty": "4.5"
+  },
+  {
+    "name": "Laura Luciano",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "2 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "Keith Green",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "3 ratings",
+    "difficulty": "3.4"
+  },
+  {
+    "name": "Paul Fazen",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "11 ratings",
+    "difficulty": "2.2"
+  },
+  {
+    "name": "Asma Mushtaq",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.0",
+    "numRatings": "3 ratings",
+    "difficulty": "3.7"
+  },
+  {
+    "name": "Daniel Roccato",
+    "department": "Finance",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "14 ratings",
+    "difficulty": "1.7"
+  },
+  {
+    "name": "Tina Crafton",
+    "department": "Writing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "10 ratings",
+    "difficulty": "3.4"
+  },
+  {
+    "name": "Dongyuan MA",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.9",
+    "numRatings": "15 ratings",
+    "difficulty": "3.3"
+  },
+  {
+    "name": "Lynne Vallone",
+    "department": "Literature",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.8",
+    "numRatings": "12 ratings",
+    "difficulty": "4.1"
+  },
+  {
+    "name": "Laurie Lally",
+    "department": "Music",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.7",
+    "numRatings": "16 ratings",
+    "difficulty": "1.9"
+  },
+  {
+    "name": "Ann Medinets",
+    "department": "Accounting",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Helen Ganiy",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Travis Dumas",
+    "department": "Education",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.0",
+    "numRatings": "1 ratings",
+    "difficulty": "5"
+  },
+  {
+    "name": "Lorie Sousa",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "4 ratings",
+    "difficulty": "3.3"
+  },
+  {
+    "name": "Ines Meier",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.6",
+    "numRatings": "14 ratings",
+    "difficulty": "2.3"
+  },
+  {
+    "name": "Winnie Westcott",
+    "department": "Accounting",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.6",
+    "numRatings": "26 ratings",
+    "difficulty": "2.9"
+  },
+  {
+    "name": "Shoko Kato",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.3",
+    "numRatings": "5 ratings",
+    "difficulty": "3.2"
+  },
+  {
+    "name": "David Barker",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "11 ratings",
+    "difficulty": "2.6"
+  },
+  {
+    "name": "Julie Griepenburg",
+    "department": "Physics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.9",
+    "numRatings": "7 ratings",
+    "difficulty": "3.8"
+  },
+  {
+    "name": "Tyler Jones",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "3 ratings",
+    "difficulty": "3.4"
+  },
+  {
+    "name": "Susanna Gilbertson",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Jeffrey Robinson",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "3 ratings",
+    "difficulty": "2.7"
+  },
+  {
+    "name": "Carol Singley",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "18 ratings",
+    "difficulty": "2.9"
+  },
+  {
+    "name": ". Ramaswami",
+    "department": "Computer Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.8",
+    "numRatings": "13 ratings",
+    "difficulty": "4.1"
+  },
+  {
+    "name": "Kristine Gallemit",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.6",
+    "numRatings": "5 ratings",
+    "difficulty": "3.2"
+  },
+  {
+    "name": "Nayhelie Taveras",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Julian Cotswold",
+    "department": "Writing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Timothy Martin",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.1",
+    "numRatings": "33 ratings",
+    "difficulty": "3.2"
+  },
+  {
+    "name": "Siqi Fu",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.2",
+    "numRatings": "27 ratings",
+    "difficulty": "3.4"
+  },
+  {
+    "name": "Gabor Toth",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.4",
+    "numRatings": "20 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "D Amy-Rose Forbes-Erickson",
+    "department": "Theater",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "3 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Yun Yoo",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.6",
+    "numRatings": "9 ratings",
+    "difficulty": "2.8"
+  },
+  {
+    "name": "Judith Downing",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "2 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Agnieszka Goeller",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.6",
+    "numRatings": "8 ratings",
+    "difficulty": "2.6"
+  },
+  {
+    "name": "Nicole Karapanagiotis",
+    "department": "Philosophy amp Religion",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "3 ratings",
+    "difficulty": "2.7"
+  },
+  {
+    "name": "Jill Carroll",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.8",
+    "numRatings": "28 ratings",
+    "difficulty": "3.9"
+  },
+  {
+    "name": "George Kumi",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "24 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Desmond Lun",
+    "department": "Computer Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.3",
+    "numRatings": "11 ratings",
+    "difficulty": "4.1"
+  },
+  {
+    "name": "Sarah Tosh",
+    "department": "Criminal Justice",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Bruce Babiarz",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Christopher Glaum",
+    "department": "Finance",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "6 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Jessyca Saavedra",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Gail Caputo",
+    "department": "Criminal Justice",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "26 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "LEEANN WESTMAN",
+    "department": "Women's Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.9",
+    "numRatings": "5 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Helen Cooper",
+    "department": "Art & Design",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.0",
+    "numRatings": "1 ratings",
+    "difficulty": "5"
+  },
+  {
+    "name": "Kai Hultzsch",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "2 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Rebecca Reynolds",
+    "department": "Information Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Kathleen Malony",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Prospero Garcia",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "3 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Vincent Capone",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "3 ratings",
+    "difficulty": "2.3"
+  },
+  {
+    "name": "Barry Adler",
+    "department": "Education",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.8",
+    "numRatings": "2 ratings",
+    "difficulty": "4.5"
+  },
+  {
+    "name": "John Tighe",
+    "department": "Education",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Hsin-Yi Lee",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.8",
+    "numRatings": "2 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Min Cao",
+    "department": "Accounting",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.6",
+    "numRatings": "6 ratings",
+    "difficulty": "3.3"
+  },
+  {
+    "name": "Lori Schlosser",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.5",
+    "numRatings": "4 ratings",
+    "difficulty": "3.8"
+  },
+  {
+    "name": "Shelia Linz",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "2 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Ki Song",
+    "department": "Accounting",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.3",
+    "numRatings": "2 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": ". Sporer",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.1",
+    "numRatings": "63 ratings",
+    "difficulty": "2.8"
+  },
+  {
+    "name": "Silvia Perez-Cortes",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Nanette Sulik",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.4",
+    "numRatings": "3 ratings",
+    "difficulty": "3.8"
+  },
+  {
+    "name": "Brynn Kairis",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Joseph Santos",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Ulrich Kremer",
+    "department": "Computer Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "10 ratings",
+    "difficulty": "3.8"
+  },
+  {
+    "name": "Howard Jacobowitz",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.7",
+    "numRatings": "9 ratings",
+    "difficulty": "2.9"
+  },
+  {
+    "name": "Georgia Arbuckle-Kiel",
+    "department": "Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.1",
+    "numRatings": "42 ratings",
+    "difficulty": "3.4"
+  },
+  {
+    "name": "Shankar Sundaresan",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "4 ratings",
+    "difficulty": "3.8"
+  },
+  {
+    "name": "Vikash Singh",
+    "department": "Sociology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.3",
+    "numRatings": "5 ratings",
+    "difficulty": "2.4"
+  },
+  {
+    "name": "Taj Gandhi",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.2",
+    "numRatings": "3 ratings",
+    "difficulty": "4.7"
+  },
+  {
+    "name": "Ivan Lopez",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Barbara Leavy",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.9",
+    "numRatings": "13 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Ashley Gimbal",
+    "department": "Communication",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "1.5"
+  },
+  {
+    "name": "Tara Woolfolk",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.7",
+    "numRatings": "40 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Craig Hynes",
+    "department": "Computer Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Gregory Gilmore-Clough",
+    "department": "Religion",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.8",
+    "numRatings": "5 ratings",
+    "difficulty": "2.9"
+  },
+  {
+    "name": "Vladimir Shtelen",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.3",
+    "numRatings": "6 ratings",
+    "difficulty": "3.2"
+  },
+  {
+    "name": "Lian QI",
+    "department": "Business Administration",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.1",
+    "numRatings": "5 ratings",
+    "difficulty": "1.4"
+  },
+  {
+    "name": "Patricia Sayers",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.4",
+    "numRatings": "7 ratings",
+    "difficulty": "2.9"
+  },
+  {
+    "name": "Emily Marker",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.9",
+    "numRatings": "5 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Jessica Ardis",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "3 ratings",
+    "difficulty": "3.7"
+  },
+  {
+    "name": "Eggerton Taylor",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Timothy Lynch",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Joe Schiavo",
+    "department": "Music",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "49 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Ronald Quincy",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "11 ratings",
+    "difficulty": "1.7"
+  },
+  {
+    "name": "Jean Racines",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Jim Mobley",
+    "department": "Theater",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.6",
+    "numRatings": "17 ratings",
+    "difficulty": "1.5"
+  },
+  {
+    "name": "Anne McGeehan",
+    "department": "Education",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Charles Elsea",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Caitlin Walker",
+    "department": "Writing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "6 ratings",
+    "difficulty": "1.6"
+  },
+  {
+    "name": "Harold Israel",
+    "department": "Communication",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.8",
+    "numRatings": "8 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Tracie Paulson",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.6",
+    "numRatings": "89 ratings",
+    "difficulty": "4.3"
+  },
+  {
+    "name": "Angela Kelly",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "3 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Robrecht van der Wel",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.4",
+    "numRatings": "3 ratings",
+    "difficulty": "2.4"
+  },
+  {
+    "name": "Chester Spell",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.4",
+    "numRatings": "14 ratings",
+    "difficulty": "2.8"
+  },
+  {
+    "name": "Katrina Hazzard-Donald",
+    "department": "Social Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.5",
+    "numRatings": "59 ratings",
+    "difficulty": "3.6"
+  },
+  {
+    "name": "William Santamore",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.4",
+    "numRatings": "8 ratings",
+    "difficulty": "3.9"
+  },
+  {
+    "name": "Sangita Pudasainee-Kapri",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "4 ratings",
+    "difficulty": "2.8"
+  },
+  {
+    "name": "Matthew Sorrento",
+    "department": "Film",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.1",
+    "numRatings": "4 ratings",
+    "difficulty": "2.9"
+  },
+  {
+    "name": "Carlos Bovell",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.3",
+    "numRatings": "4 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Danae Rupp",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Pedro Pajarillo",
+    "department": "Computer Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "Deb Perssons",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Nichole Sachs",
+    "department": "Criminal Justice",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Luis Garcia",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "34 ratings",
+    "difficulty": "2.8"
+  },
+  {
+    "name": "Jon'A Meyer",
+    "department": "Criminal Justice",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.3",
+    "numRatings": "27 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "John Worrall",
+    "department": "Economics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "13 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "Georgia Arbuckle",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.1",
+    "numRatings": "15 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Tara Timberman",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "6 ratings",
+    "difficulty": "3.8"
+  },
+  {
+    "name": "John Dighton",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "6 ratings",
+    "difficulty": "3.2"
+  },
+  {
+    "name": "Ed McHugh",
+    "department": "Computer Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.4",
+    "numRatings": "4 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Ronaldo Parente",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.3",
+    "numRatings": "6 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "ALYEA PIERCE",
+    "department": "Writing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Steven  LaPeruta",
+    "department": "International Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Ziling Zhu",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Kavitha Govindasamy",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.7",
+    "numRatings": "10 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "Youngrim  Kim",
+    "department": "Journalism",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Aryaman Patel",
+    "department": "Computer Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Anna Khimasia",
+    "department": "Art History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "7 ratings",
+    "difficulty": "3.6"
+  },
+  {
+    "name": "Kenneth  Gill",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.0",
+    "numRatings": "1 ratings",
+    "difficulty": "5"
+  },
+  {
+    "name": "Barbara Harmon",
+    "department": "Communication",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.3",
+    "numRatings": "2 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Jennifer Choi",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Dave Lepak",
+    "department": "Humanities",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Carol J. Avins",
+    "department": "Literature",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.8",
+    "numRatings": "6 ratings",
+    "difficulty": "3.7"
+  },
+  {
+    "name": "G Foley",
+    "department": "Management",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "3 ratings",
+    "difficulty": "2.3"
+  },
+  {
+    "name": "Mark Camma",
+    "department": "Accounting",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Christian Aziz",
+    "department": "Journalism",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Susan Helft",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.3",
+    "numRatings": "2 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Tess Cherlin",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Dawne Lomangino-DiMauro",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Joyce  Howell",
+    "department": "Law",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Sean Omalley",
+    "department": "Physics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.6",
+    "numRatings": "11 ratings",
+    "difficulty": "3.7"
+  },
+  {
+    "name": "Gerald Verbrugghe",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.1",
+    "numRatings": "61 ratings",
+    "difficulty": "3.7"
+  },
+  {
+    "name": "Mitchell Koza",
+    "department": "Management",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.2",
+    "numRatings": "4 ratings",
+    "difficulty": "2.3"
+  },
+  {
+    "name": "Nadine  Carolluzo",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "2 ratings",
+    "difficulty": "1.5"
+  },
+  {
+    "name": "Jessica Bashshar",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "2 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Thomas Bertrand",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Nabina Das",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.5",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Amanda McDonnell",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Jonathan Deane",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.3",
+    "numRatings": "5 ratings",
+    "difficulty": "2.8"
+  },
+  {
+    "name": "Stuart Charme",
+    "department": "Philosophy & Religion",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.1",
+    "numRatings": "15 ratings",
+    "difficulty": "3.4"
+  },
+  {
+    "name": "Zachary Kennedy-Lopez",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Margaret Poling",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Tracy Swan",
+    "department": "Criminal Justice",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Edwin Reese",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Jared Weigley",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.4",
+    "numRatings": "12 ratings",
+    "difficulty": "4.2"
+  },
+  {
+    "name": "Steve Ayscue",
+    "department": "Political Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "J Meredith",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.7",
+    "numRatings": "45 ratings",
+    "difficulty": "1.6"
+  },
+  {
+    "name": "Norman Lang",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "3 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Nick SALVATORE",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Victoria Haggblom",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "2 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "Mauricio  Castillo",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Victoria Wright-Adams",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "1.5"
+  },
+  {
+    "name": "Paul Heideman",
+    "department": "African-American Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "2 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Vanessa Lobue",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Anandini Dar",
+    "department": "Child & Family Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Justin O'Hare",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "9 ratings",
+    "difficulty": "2.1"
+  },
+  {
+    "name": "Christopher Bischof",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "6 ratings",
+    "difficulty": "3.2"
+  },
+  {
+    "name": "Danielle Graci",
+    "department": "Communication",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.9",
+    "numRatings": "6 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "Kristin August",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.7",
+    "numRatings": "10 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "Stanley Krantz",
+    "department": "Education",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.9",
+    "numRatings": "8 ratings",
+    "difficulty": "3.7"
+  },
+  {
+    "name": "Robin Fisher",
+    "department": "Journalism",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.6",
+    "numRatings": "4 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Margarita Orlandoni",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.7",
+    "numRatings": "3 ratings",
+    "difficulty": "1.7"
+  },
+  {
+    "name": "Carol Kahn",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.8",
+    "numRatings": "10 ratings",
+    "difficulty": "4.1"
+  },
+  {
+    "name": ". Roseman",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.4",
+    "numRatings": "49 ratings",
+    "difficulty": "2.8"
+  },
+  {
+    "name": "Lauren Silver",
+    "department": "Child  Family Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "4 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Kasia Bradbury",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "James Simon",
+    "department": "Agriculture",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "5 ratings",
+    "difficulty": "3.3"
+  },
+  {
+    "name": "Cory Trout",
+    "department": "Physics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.6",
+    "numRatings": "6 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Juliann Nielsen",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "7 ratings",
+    "difficulty": "1.9"
+  },
+  {
+    "name": "Joseph Dagrossa",
+    "department": "Criminal Justice",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Adam Straus",
+    "department": "Writing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Cati Coe",
+    "department": "Anthropology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "1 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Jennifer Araten-Castillo",
+    "department": "Business Administration",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "4 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Rebekah Flovin",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Karli Sipps",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Dawei Hong",
+    "department": "Computer Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.3",
+    "numRatings": "4 ratings",
+    "difficulty": "1.8"
+  },
+  {
+    "name": "William Carl",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "1.5"
+  },
+  {
+    "name": "Tetyana Darian",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "3 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "John Broussard",
+    "department": "Finance",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.4",
+    "numRatings": "5 ratings",
+    "difficulty": "3.6"
+  },
+  {
+    "name": "Kathe Sandler",
+    "department": "Women's Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.2",
+    "numRatings": "7 ratings",
+    "difficulty": "2.4"
+  },
+  {
+    "name": "Shaheen Ayubi",
+    "department": "Political Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "24 ratings",
+    "difficulty": "1.5"
+  },
+  {
+    "name": "Taylor Lewis",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "1.5"
+  },
+  {
+    "name": "Carol Kaufman-Scarborough",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "8 ratings",
+    "difficulty": "1.9"
+  },
+  {
+    "name": "Robert Miller",
+    "department": "Religion",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.2",
+    "numRatings": "4 ratings",
+    "difficulty": "3.8"
+  },
+  {
+    "name": "Dinesh Bhoj",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.1",
+    "numRatings": "16 ratings",
+    "difficulty": "3.9"
+  },
+  {
+    "name": "Brian Folkes",
+    "department": "Physics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Gabriele Stankeviciute",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Mahdi Ibn-Ziyad",
+    "department": "Religion",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "15 ratings",
+    "difficulty": "2.3"
+  },
+  {
+    "name": "Carlo Candalla",
+    "department": "Economics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.9",
+    "numRatings": "7 ratings",
+    "difficulty": "1.9"
+  },
+  {
+    "name": "Brandon Dougherty",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.9",
+    "numRatings": "6 ratings",
+    "difficulty": "2.6"
+  },
+  {
+    "name": "Noelia Martinez",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Sara Campbell",
+    "department": "Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "15 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Joseph Canada",
+    "department": "Accounting",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.6",
+    "numRatings": "6 ratings",
+    "difficulty": "3.1"
+  },
+  {
+    "name": "Angie Corry",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "6 ratings",
+    "difficulty": "1.8"
+  },
+  {
+    "name": "Jamie Dunaev",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "19 ratings",
+    "difficulty": "2.3"
+  },
+  {
+    "name": "Eveling Hondros",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "5 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Christopher Lim",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "11 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Paul More",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "34 ratings",
+    "difficulty": "3.3"
+  },
+  {
+    "name": "Guy Pascale",
+    "department": "Economics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.4",
+    "numRatings": "15 ratings",
+    "difficulty": "2.9"
+  },
+  {
+    "name": "Pankaj Chopra",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "James Johnson",
+    "department": "African-American Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Alessio Russomanno",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.3",
+    "numRatings": "6 ratings",
+    "difficulty": "4.3"
+  },
+  {
+    "name": "Richard Stansfield",
+    "department": "Criminal Justice",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "6 ratings",
+    "difficulty": "3.3"
+  },
+  {
+    "name": "Eric Polack",
+    "department": "Music",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "1.5"
+  },
+  {
+    "name": "Haisheng Li",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.3",
+    "numRatings": "12 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Margaret Betz",
+    "department": "Philosophy",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "4 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Mahesh Nerurkar",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "7 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Carla Giaudrone",
+    "department": "Spanish",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "9 ratings",
+    "difficulty": "2.6"
+  },
+  {
+    "name": "Rajiv Gandhi",
+    "department": "Computer Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "32 ratings",
+    "difficulty": "4.9"
+  },
+  {
+    "name": "Qingrong Huang",
+    "department": "Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Ken Kendall",
+    "department": "Management",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.5",
+    "numRatings": "4 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "M. Rafey Habib",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.6",
+    "numRatings": "54 ratings",
+    "difficulty": "3.1"
+  },
+  {
+    "name": "Cole Lympus",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Katherine Prihoda",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.4",
+    "numRatings": "24 ratings",
+    "difficulty": "4.5"
+  },
+  {
+    "name": "Ahmed Albrolisy",
+    "department": "Finance",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "16 ratings",
+    "difficulty": "3.6"
+  },
+  {
+    "name": "Mark Paul",
+    "department": "Economics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Cathleen Doherty",
+    "department": "Geology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "M. Saunders",
+    "department": "Accounting",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Jody Work",
+    "department": "Graphic Arts",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.0",
+    "numRatings": "1 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Kelcie Ralph",
+    "department": "Architecture",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Brian Corbett",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.5",
+    "numRatings": "2 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Sasan Hagani",
+    "department": "Engineering",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Yuchung Wang",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.5",
+    "numRatings": "29 ratings",
+    "difficulty": "3.6"
+  },
+  {
+    "name": "Chaparral Freeman",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Ethan Huang",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "J. Randolph",
+    "department": "Women's Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "1 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Jian Ren",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "2 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Dr Kelly Snowman",
+    "department": "Engineering",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Kenwin Muang",
+    "department": "Economics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Jay Kania",
+    "department": "Computer Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.6",
+    "numRatings": "44 ratings",
+    "difficulty": "4.3"
+  },
+  {
+    "name": "Tom Benhamou",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Bill Whitlow",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "21 ratings",
+    "difficulty": "3.4"
+  },
+  {
+    "name": "Nancy Ellis",
+    "department": "Theater",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.7",
+    "numRatings": "16 ratings",
+    "difficulty": "2.1"
+  },
+  {
+    "name": "Haydee Herrera",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.4",
+    "numRatings": "10 ratings",
+    "difficulty": "1.8"
+  },
+  {
+    "name": "Pamela Clark",
+    "department": "Sociology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.1",
+    "numRatings": "4 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Sirag Mahmood",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "6 ratings",
+    "difficulty": "2.3"
+  },
+  {
+    "name": "Connie Maurry",
+    "department": "Political Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.5",
+    "numRatings": "1 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Wojtek Wolfe",
+    "department": "Political Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "57 ratings",
+    "difficulty": "3.8"
+  },
+  {
+    "name": "Greg Salyer",
+    "department": "Literature",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "6 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Kristi Collemacine",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "6 ratings",
+    "difficulty": "1.8"
+  },
+  {
+    "name": "Andrew Shankman",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.9",
+    "numRatings": "13 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Richard Demirjian",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "32 ratings",
+    "difficulty": "3.3"
+  },
+  {
+    "name": "Randy Mershon",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "5 ratings",
+    "difficulty": "3.3"
+  },
+  {
+    "name": "Jamille Ramos",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Esther Bennett",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Mark Gurvich",
+    "department": "Engineering",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Robert  Hughes",
+    "department": "Ethnic Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Kenneth McKeever",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Arnab Karmakar",
+    "department": "Computer Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Justin Bland",
+    "department": "Linguistics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "4 ratings",
+    "difficulty": "1.4"
+  },
+  {
+    "name": "Sean bugel",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Melanie Kwestel",
+    "department": "Communication",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Rachel Lansing",
+    "department": "Music",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Leeja Carter",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.2",
+    "numRatings": "12 ratings",
+    "difficulty": "3.4"
+  },
+  {
+    "name": "Anna King",
+    "department": "Criminal Justice",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "2 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Lynne Borucki",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Janet Golden",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "17 ratings",
+    "difficulty": "3.9"
+  },
+  {
+    "name": "Michael Dominik",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "9 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "Evan Roskos",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "19 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "Martin Karel",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "8 ratings",
+    "difficulty": "2.4"
+  },
+  {
+    "name": "Shanti Frausto",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.3",
+    "numRatings": "6 ratings",
+    "difficulty": "4.8"
+  },
+  {
+    "name": "Joseph Schaffner",
+    "department": "Writing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.8",
+    "numRatings": "5 ratings",
+    "difficulty": "2.4"
+  },
+  {
+    "name": "Anthony DePretis",
+    "department": "Business Administration",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Peter Maher",
+    "department": "Finance",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Erin McCourt",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.6",
+    "numRatings": "6 ratings",
+    "difficulty": "1.9"
+  },
+  {
+    "name": "Chinghsin Wu",
+    "department": "Fine Arts",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Anthony Grasso",
+    "department": "Political Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "6 ratings",
+    "difficulty": "3.3"
+  },
+  {
+    "name": "Diana Shelstad",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.4",
+    "numRatings": "6 ratings",
+    "difficulty": "2.8"
+  },
+  {
+    "name": "Steven Pyser",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Hang Liu",
+    "department": "Engineering",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Zhao Zhang",
+    "department": "Engineering",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.0",
+    "numRatings": "5 ratings",
+    "difficulty": "3.6"
+  },
+  {
+    "name": "Beth Rabinowitz",
+    "department": "Public Administration",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.2",
+    "numRatings": "7 ratings",
+    "difficulty": "4.1"
+  },
+  {
+    "name": "Laura  Napolitano",
+    "department": "Sociology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "14 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Ann Estrin",
+    "department": "Criminal Justice",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Daniel Howard",
+    "department": "Criminal Justice",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "5 ratings",
+    "difficulty": "3.8"
+  },
+  {
+    "name": "Harry Rhea",
+    "department": "Criminal Justice",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.6",
+    "numRatings": "12 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Babu Dasari",
+    "department": "Business Economics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.7",
+    "numRatings": "4 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Sarah Allred",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "4 ratings",
+    "difficulty": "2.3"
+  },
+  {
+    "name": "Kate Cairns",
+    "department": "Child  Family Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "3 ratings",
+    "difficulty": "2.8"
+  },
+  {
+    "name": "Brianna Shields",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "3 ratings",
+    "difficulty": "1.3"
+  },
+  {
+    "name": "Susan Mokhberi",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "15 ratings",
+    "difficulty": "2.4"
+  },
+  {
+    "name": "Evan Jewell",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "17 ratings",
+    "difficulty": "3.4"
+  },
+  {
+    "name": "Peter Palenchar",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.8",
+    "numRatings": "2 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "David Shen",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Thomas Yannes",
+    "department": "Economics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "5 ratings",
+    "difficulty": "3.6"
+  },
+  {
+    "name": "Rufan Luo",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "4 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Mark Zaki",
+    "department": "Music",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.1",
+    "numRatings": "4 ratings",
+    "difficulty": "1.5"
+  },
+  {
+    "name": "Marla Blunt Carter",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Jonathan Brown",
+    "department": "Economics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.1",
+    "numRatings": "6 ratings",
+    "difficulty": "3.3"
+  },
+  {
+    "name": "Michelle Miller",
+    "department": "Economics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "1 ratings",
+    "difficulty": "5"
+  },
+  {
+    "name": "JJ Naddeo",
+    "department": "Physics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "5 ratings",
+    "difficulty": "1.8"
+  },
+  {
+    "name": "John McGarvey",
+    "department": "Physics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.6",
+    "numRatings": "24 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Jeanann Coppola",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "2 ratings",
+    "difficulty": "1.5"
+  },
+  {
+    "name": "Inigo Erneta",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Jinglin Fu",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Drew Humphries",
+    "department": "Criminal Justice",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.6",
+    "numRatings": "30 ratings",
+    "difficulty": "3.6"
+  },
+  {
+    "name": "George Bedame",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.6",
+    "numRatings": "21 ratings",
+    "difficulty": "1.7"
+  },
+  {
+    "name": "Roberta Tarbell",
+    "department": "Fine Arts",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.9",
+    "numRatings": "23 ratings",
+    "difficulty": "4.4"
+  },
+  {
+    "name": "Natasha Tursi",
+    "department": "Humanities",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.4",
+    "numRatings": "8 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": ". Guedon-Deconcini",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "22 ratings",
+    "difficulty": "1.9"
+  },
+  {
+    "name": "Andrew Lees",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.6",
+    "numRatings": "14 ratings",
+    "difficulty": "3.4"
+  },
+  {
+    "name": "Heike Bucking",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.3",
+    "numRatings": "7 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": ". Rabinowitz",
+    "department": "Management",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.9",
+    "numRatings": "7 ratings",
+    "difficulty": "3.1"
+  },
+  {
+    "name": "Allen Woll",
+    "department": "Film",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.7",
+    "numRatings": "8 ratings",
+    "difficulty": "3.3"
+  },
+  {
+    "name": "Michael Ward",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.9",
+    "numRatings": "16 ratings",
+    "difficulty": "1.9"
+  },
+  {
+    "name": "Lucy Ford",
+    "department": "Management",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "3 ratings",
+    "difficulty": "3.7"
+  },
+  {
+    "name": "Mark Morgan",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.4",
+    "numRatings": "7 ratings",
+    "difficulty": "3.9"
+  },
+  {
+    "name": "Oleg Sokolinskiy",
+    "department": "Finance",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.1",
+    "numRatings": "4 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Wanda Hardy",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.4",
+    "numRatings": "5 ratings",
+    "difficulty": "2.4"
+  },
+  {
+    "name": "Ray Gilmore",
+    "department": "Finance",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.0",
+    "numRatings": "2 ratings",
+    "difficulty": "5"
+  },
+  {
+    "name": "Briance Mascarenhas",
+    "department": "Management",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.5",
+    "numRatings": "2 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Lorraine Howard",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.5",
+    "numRatings": "5 ratings",
+    "difficulty": "3.9"
+  },
+  {
+    "name": "Alisa Belanger",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "5 ratings",
+    "difficulty": "2.2"
+  },
+  {
+    "name": "Christine Brenner",
+    "department": "Political Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.3",
+    "numRatings": "2 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Christine James",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "3 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Lisa Whitlatch",
+    "department": "Classics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "2 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "Ross Baker",
+    "department": "Political Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Michael Fortner",
+    "department": "Political Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.2",
+    "numRatings": "6 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "David Krueger",
+    "department": "Religion",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.8",
+    "numRatings": "2 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Stefania Mereu",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Brian Holtz",
+    "department": "Management",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "2 ratings",
+    "difficulty": "2.5"
+  },
+  {
+    "name": "Gayle Porter",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.5",
+    "numRatings": "1 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Daniel Wallace",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.0",
+    "numRatings": "1 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Carolina Rash",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Joseph Martin",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Jennifer Peters",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.0",
+    "numRatings": "2 ratings",
+    "difficulty": "1.5"
+  },
+  {
+    "name": "Nukhet Varlik",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Michael Medina",
+    "department": "Criminal Justice",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Greg Sawyer",
+    "department": "Religion",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Tina Brand",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Shamima Nasrin",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Jane Siegel",
+    "department": "Criminal Justice",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.9",
+    "numRatings": "36 ratings",
+    "difficulty": "3.7"
+  },
+  {
+    "name": "Catherine D'Ignazio",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.4",
+    "numRatings": "7 ratings",
+    "difficulty": "2.9"
+  },
+  {
+    "name": "Nadine Sullivan",
+    "department": "Sociology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Lisa Sibley",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.2",
+    "numRatings": "8 ratings",
+    "difficulty": "3.4"
+  },
+  {
+    "name": "John Delaurentis",
+    "department": "Greek",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Mark Nessel",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Catherine Grgicak",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Tom Haworth",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.3",
+    "numRatings": "65 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Bhavna Anil",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": ". Ojea",
+    "department": "Geography",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.0",
+    "numRatings": "25 ratings",
+    "difficulty": "2.9"
+  },
+  {
+    "name": "Oscar Holmes IV",
+    "department": "Management",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.4",
+    "numRatings": "5 ratings",
+    "difficulty": "3.6"
+  },
+  {
+    "name": "Daniel Keebler",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.0",
+    "numRatings": "3 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "William Allen",
+    "department": "Accounting",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.2",
+    "numRatings": "12 ratings",
+    "difficulty": "2.6"
+  },
+  {
+    "name": "Allison Casey",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Noelle Ciara",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Eva Lupold",
+    "department": "Child  Family Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.3",
+    "numRatings": "4 ratings",
+    "difficulty": "4.5"
+  },
+  {
+    "name": "Atiya Aftab",
+    "department": "Political Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.1",
+    "numRatings": "6 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Renee Cantwell",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "3 ratings",
+    "difficulty": "4.3"
+  },
+  {
+    "name": "Rachel Devlin",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.6",
+    "numRatings": "13 ratings",
+    "difficulty": "2.4"
+  },
+  {
+    "name": "Ira Roseman",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Lucy McClain",
+    "department": "Criminal Justice",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "7 ratings",
+    "difficulty": "1.8"
+  },
+  {
+    "name": "Staci  Pacetti",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.1",
+    "numRatings": "6 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Philips Young",
+    "department": "Philosophy",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.9",
+    "numRatings": "14 ratings",
+    "difficulty": "3.4"
+  },
+  {
+    "name": "Phillips Young",
+    "department": "Philosophy",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "6 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Tamara Nelson",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Patrick Rosal",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Elena Ragusa",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "6 ratings",
+    "difficulty": "1.3"
+  },
+  {
+    "name": "Brian Lallier",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.6",
+    "numRatings": "4 ratings",
+    "difficulty": "4.3"
+  },
+  {
+    "name": "Nicholas Sanchirico",
+    "department": "Physics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Julie Hancock",
+    "department": "Human Resources",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "4 ratings",
+    "difficulty": "1.5"
+  },
+  {
+    "name": "Ryan Brown",
+    "department": "Music",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Antonio Davila",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "2"
+  },
+  {
+    "name": "Angelica Gonzalez",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "2 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Craig Agule",
+    "department": "Philosophy",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "6 ratings",
+    "difficulty": "3.5"
+  },
+  {
+    "name": "Aaron Oster",
+    "department": "Theater",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "4 ratings",
+    "difficulty": "2.6"
+  },
+  {
+    "name": "Howard Levinson",
+    "department": "Political Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.0",
+    "numRatings": "1 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Dana Pilla",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.9",
+    "numRatings": "4 ratings",
+    "difficulty": "3.3"
+  },
+  {
+    "name": ". Bohj",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.9",
+    "numRatings": "23 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Steven Katz",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Nathan Fong",
+    "department": "Management",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Courtenay Cavanaugh",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.6",
+    "numRatings": "19 ratings",
+    "difficulty": "3.3"
+  },
+  {
+    "name": "Glasker Wayne",
+    "department": "African-American Studies",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "7 ratings",
+    "difficulty": "2.4"
+  },
+  {
+    "name": "Lisa Bush",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": ". Fitter",
+    "department": "Literature",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "61 ratings",
+    "difficulty": "3.6"
+  },
+  {
+    "name": "Lisa Zeidner",
+    "department": "Art",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "1.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "John Matthews",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.8",
+    "numRatings": "7 ratings",
+    "difficulty": "2.3"
+  },
+  {
+    "name": "Trish Egenton",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "17 ratings",
+    "difficulty": "2.9"
+  },
+  {
+    "name": "Randy Stamm",
+    "department": "Social Work",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.9",
+    "numRatings": "28 ratings",
+    "difficulty": "3.6"
+  },
+  {
+    "name": "Patricia Kline",
+    "department": "Marketing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.5",
+    "numRatings": "33 ratings",
+    "difficulty": "2.9"
+  },
+  {
+    "name": "Marc Lane",
+    "department": "Political Science",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Sara Leshen",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.9",
+    "numRatings": "10 ratings",
+    "difficulty": "4"
+  },
+  {
+    "name": "Kyle Murphy",
+    "department": "Chemistry",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Joseph Cipriano",
+    "department": "Nursing",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "11 ratings",
+    "difficulty": "3.1"
+  },
+  {
+    "name": "Catherine Bliss",
+    "department": "Sociology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Jeffrey Bender",
+    "department": "Theater",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "4 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Michael Schneider",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Mohammad Jabbari",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.7",
+    "numRatings": "6 ratings",
+    "difficulty": "2.7"
+  },
+  {
+    "name": "Michael George",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Mumtaz Ahmed",
+    "department": "Economics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "3.2",
+    "numRatings": "37 ratings",
+    "difficulty": "2.8"
+  },
+  {
+    "name": "Eilidh  McKemmie",
+    "department": "Mathematics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "2 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "Maria Rosales-Rueda",
+    "department": "Economics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Calvin Yu",
+    "department": "Biology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  },
+  {
+    "name": "John Chou",
+    "department": "Physics",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "2.0",
+    "numRatings": "1 ratings",
+    "difficulty": "5"
+  },
+  {
+    "name": "Tim Otto",
+    "department": "Psychology",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Dana Omirova",
+    "department": "English",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Norman Markowitz",
+    "department": "History",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Ernest  Brewster",
+    "department": "Religion",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "5.0",
+    "numRatings": "1 ratings",
+    "difficulty": "1"
+  },
+  {
+    "name": "Doaa Rashed",
+    "department": "Languages",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Jonathan NG",
+    "department": "Business",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Steven Dym",
+    "department": "Finance",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "0.0",
+    "numRatings": "0 ratings",
+    "difficulty": "0"
+  },
+  {
+    "name": "Nick Vlassis",
+    "department": "Engineering",
+    "school": "Rutgers - State University of New Jersey",
+    "rating": "4.0",
+    "numRatings": "1 ratings",
+    "difficulty": "3"
+  }
+]
