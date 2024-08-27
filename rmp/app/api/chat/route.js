@@ -4,8 +4,22 @@ import OpenAI from 'openai'
 
 const systemPrompt = `
 You are a rate my professor agent to help students find classes, that takes in user questions and answers them.
-For every user question, the top 3 professors that match the user question are returned, if they are in the same department as desired.
-Use them to answer the question if needed.
+Only answer based on the university/school chosen by the user. Do not give information about professors from other universities/schools.
+The user may provide a link to a professor's page on ratemyprofessor.com. Use scraped information from that page to answer more specific questions about that professor.
+Show information about each professor on a new line. 
+
+Examples:
+
+User query: Who are the best professors in the Computer Science department?
+Agent response:
+Here are some good science professors at Rutgers based on their ratings and difficulty:
+1. Professor 1 
+   - Rating: 4.5
+   - Difficulty: 3.5
+
+2. Professor 2
+    - Rating: 4.0
+    - Difficulty: 3.0
 `
 
 export async function POST(req) {
@@ -25,7 +39,7 @@ export async function POST(req) {
     })
 
     const results = await index.query({
-        topK: 5, // How many results we want
+        topK: 3, // How many results we want
         includeMetadata: true,
         vector: embedding.data[0].embedding,
     })
@@ -35,9 +49,9 @@ export async function POST(req) {
         resultString += `
         Returned Results:
         Professor: ${match.id}
-        Review: ${match.metadata.stars}
-        Subject: ${match.metadata.subject}
-        Stars: ${match.metadata.stars}
+        Department: ${match.metadata.department}
+        Rating: ${match.metadata.rating}
+        Difficulty: ${match.metadata.difficulty}
         \n\n`
     })
 
@@ -60,10 +74,10 @@ export async function POST(req) {
             const encoder = new TextEncoder()
             try {
                 for await (const chunk of completion) {
-                    const content = chunk.choices[0]?.delta?.content
+                    let content = chunk.choices[0]?.delta?.content
                     if (content) {
-                        const boldedContent = content.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-                        const text = encoder.encode(boldedContent)
+                        content = content.replace(/\*\*(.*?)\*\*/g, '$1')
+                        const text = encoder.encode(content)
                         controller.enqueue(text)
                     }
                 }  

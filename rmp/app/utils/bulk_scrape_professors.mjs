@@ -1,3 +1,7 @@
+// To run:
+// cd rmp
+// node ap/utils/bulk_scrape_professors.mjs
+
 import dotenv from 'dotenv';
 dotenv.config({ path: '.env.local' });
 
@@ -22,7 +26,7 @@ export async function scrapeProfessors(url, maxRetries = 3, limit = Infinity) {
       try {
         await page.goto(url, { 
           waitUntil: 'networkidle0',
-          timeout: 2000000 // 2000 seconds timeout
+          timeout: 200000000
         });
         break;
       } catch (error) {
@@ -215,7 +219,7 @@ async function uploadProfessorsToPinecone(schoolName) {
         });
 
         return {
-          id: `${schoolName}_${prof.name}`, // Include school name in ID to ensure uniqueness
+          id: `${prof.name}`,
           values: embedding.data[0].embedding,
           metadata: {
               school: prof.school,
@@ -278,7 +282,7 @@ async function main() {
     const url = 'https://www.ratemyprofessors.com/search/professors/824?q=*';
   
     // Test run with limited professors
-    // await testWithLimitedProfessors(5); // Change this number to set the limit
+    // await testWithLimitedProfessors(10); // Change this number to set the limit
   
     // Full run (uncomment when ready for full scraping)
     try {
